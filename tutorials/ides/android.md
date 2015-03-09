@@ -1,11 +1,7 @@
 # Getting Started With Android Studio
 Copyright 2015 Joseph Khawly
 
-Android Studio is an IDE for Android development created by Google themselves. It's based on the Java IDE IntelliJ IDEA, so if you've used that before then many of the features of Android Studio will be familiar to you.
-
-## TODO
-- Add screenshots
-- Maybe use numbered steps
+This tutorial will teach you the basics of Android Studio. After this, you'll have a better understanding of how this IDE works and will be able to effectively use it for your Android project in CS 180.
 
 ## Table of contents
 - Installation and setup
