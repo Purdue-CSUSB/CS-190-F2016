@@ -15,7 +15,8 @@ There are two great uses for them (among others):
 
 Basically, on the machine you want to connect to other servers with, you need to generate a public key file and a private key file.
 You then give your public key (id_rsa.pub) to the server you want to connect to, and it adds the key to its 'whitelist', known as the authorized_keys file ***never*** give your private key to anyone, treat it like you would with a secure password.
-##Generating Keys (OSX & Linux based Systems)
+##Generating Keys
+### (OSX & Linux based Systems)
 open up terminal, and run the command `ssh-keygen`
 It will ask you where you want to save it, and for an optional passphrase & confirmation of passphrase.
 
@@ -53,21 +54,25 @@ Now, if you cd into `~/.ssh` and list the files (`ls`), you should see at least 
 
 `id_rsa` is your private key file, and `id_rsa.pub` is your public key. Remember not to distribute the private key!
 
-##Generating Keys on windows
-Go download [PuTTYGen](http://www.chiark.greenend.org.uk/~sgtatham/putty/)
-![image](http://	)
-
+###Windows
+Go download [both PuTTY and PuTTYGen](http://www.chiark.greenend.org.uk/~sgtatham/putty/)
+open PuTTYGen, click Generate, and then save the public and private keys somewhere of your choosing
 
 ##Remote Machine Setup
 
+###OSX/Linux
 In order to make it so that you don't need to type your password when you SSH into the CS machines, we need to add your public key to the server's authorized_keys file.
 
 In one command, you can append your public key to the authorized_keys file on data.cs.purdue.edu
 
 `cat ~/.ssh/id_rsa.pub | ssh <yourusername>@data.cs.purdue.edu "cat >> ~/.ssh/authorized_keys"`
 
-For non-unix systems, just connect using PuTTY, open up the file using vi or nano or your favorite text editor, paste the contents of the private key, and save it
+###Windows
+For non-unix systems, just connect to `data.cs.purdue.edu` using PuTTY, open up the `~/.ssh/authorized_keys`file using vi or nano or your favorite text editor, paste the contents of the private key (located wherever you saved it from puttygen), and save it.
 
+In the future, in the putty connection settings (Connection>SSH>Auth) you can specify to use the private key to authenticate with as opposed to password.
+
+###hints!
 One super cool thing is that since the filesystems are networked between machines, they all shared the same authorized_keys file. this means, you can `ssh user@anything.cs.purdue.edu` and instantly get in!
 
 
