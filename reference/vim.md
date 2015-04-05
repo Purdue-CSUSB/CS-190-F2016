@@ -47,28 +47,47 @@ vim <filename>
 
 sequence | result
 -------  | ---------
-**:q**   | exit editor
-**:w**   | save changes
-**:wq**  | save changes and exit editor
-**:q!**  | force quit editor without saving changes
+`:q`   | exit editor
+`:w`   | save changes
+`:wq`  | save changes and exit editor
+`:q!`  | force quit editor without saving changes
 
 
 ### Moving through the text
 
+Moving relative to your cursor
+
 sequence | result
 -------  | ---------
- **h**   | move the cursor to the left
- **l**   | move it to the right
- **k**   | move up
- **j**   | move down
+`h`   | move left
+`l`   | move right
+`k`   | move up
+`j`   | move down
 or use the arrow keys
+
+
+sequence | result
+-------- | ---------
+`w`        | move forward by word
+`b`        | move backwards by word
+`e`        | move forwards by word, putting your cursor at the end of each word
+`}`        | move forwards by one paragraph
+`{`        | move backwards by one paragraph
+`ctrl + f` | move forwards by one page
+`ctrl + b` | move backwards by one page
+
+
+
+Note that all of these
+
+Moving to an anchored location (not relative)
 
 sequence  | result
 --------- | -------
- **^**    | move the cursor to the begnning of the line
- **$**    | move the cursor to the end of the line
- **gg**   | move the cursor to the beginning of file
- **G**    | move the cursor to the end of the file
+`^`    | move the cursor to the begnning of the line
+`$`    | move the cursor to the end of the line
+`gg`   | move the cursor to the beginning of file
+`G`    | move the cursor to the end of the file
 
 
 > More information and techniques can be found in the help file
@@ -82,27 +101,39 @@ sequence  | result
 
 sequence  | result
 --------- | -------
- **i**    | switch from normal (command) mode to insert mode
+`i`       | switch from normal (command) mode to insert mode
+
+The following will go into insert mode, but they will all put your cursor at different spots.
+
+sequence | result
+-------- | ----------
+`a`       | after the cursor
+`A`       | at end of line
+`i`       | before cursor
+`I`       | before line
+`o`       | Create new line below and start editing
+`O`       | Create new line above and start editing
+`gi`       | Place cursor where you were last editing (Useful for when you exit Insert mode and then need to go back where you once were)
 
 - To exit insert mode, press `ESC` key.
 
 ### Editing Text in Normal Mode (The Basics)
-sequence        | result
-----------------|-----------------
- **dd**         | delete current line
- ***n*** **dd** | delete ***n*** lines including and below current line
- **dw**         | delete the word to the right of the cursor
- ***n*** **dw** | delete ***n*** words to the right of the cursor
- **x**          | delete letter highlighted by the cursor
- **:** ***n***  | go to the ***n***th line in the file.
+sequence          | result
+----------------- | -----------------
+`dd`              | delete current line
+*n*`dd`           | delete *n* lines including and below current line
+`dw`              | delete the word to the right of the cursor
+*n*`dw`           | delete *n* words to the right of the cursor
+`x`               | delete letter highlighted by the cursor
+`:`*n* OR *n*`gg` | go to the *n*th line in the file.
 
 
 ### Undo and Redo
 
 sequence   | result
 -----------|-----------------
- u         | undo last action
- ctrl + r  | redo last action
+`u`        | undo last action
+`ctrl + r` | redo last action
 
 ## Advanced Tips and Tricks
 
@@ -126,6 +157,19 @@ If you want to replace every instance everywhere, you can add `g` at the end.
 
 `:%s/needle/vimrox/g`
 
+
+### Tabs
+TODO
+
+### Splits
+TODO
+
+### Macros
+TODO
+
+### Autocomplete
+TODO
+
 ### The Jumplist
 
 Vim keeps track of all the places in the file that you've jumped around to.
@@ -135,5 +179,9 @@ commands below
 
 sequence   | result
 -----------|-----------------
- ctrl + o  | jump backwards
- ctrl + i  | jump forwards
+`ctrl + o` | jump backwards
+`ctrl + i` | jump forwards
+
+
+## Plugins
+TODO
