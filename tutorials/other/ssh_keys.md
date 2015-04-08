@@ -15,10 +15,12 @@ There are two great uses for them (among others):
 
 Basically, on the machine you want to connect to other servers with, you need to generate a public key file and a private key file.
 You then give your public key (id_rsa.pub) to the server you want to connect to, and it adds the key to its 'whitelist', known as the authorized_keys file ***never*** give your private key to anyone, treat it like you would with a secure password.
+
+If you lose your key (like if you've lost your computer) or it is compromised, you can just invalidate that key anywhere its used by removing it from the authorized_keys file
 ##Generating Keys
 ### (OSX & Linux based Systems)
 open up terminal, and run the command `ssh-keygen`
-It will ask you where you want to save it, and for an optional passphrase & confirmation of passphrase.
+It will ask you where you want to save it, and for an optional passphrase & confirmation of passphrase. A passphrase is really only necessary for high security applications, and the main reason you are probably setting up an SSH key is for the convenience of not typing in your password
 
 You can just press enter 3 times to accept the defaults.
 
@@ -49,8 +51,9 @@ The output should be similar to this:
 
 Now, if you cd into `~/.ssh` and list the files (`ls`), you should see at least 2 files
 
-	~/.ssh » ls                                                                                                                                                                                           
-	id_rsa  id_rsa.pub
+	~ $ cd ~/.ssh
+	~/.ssh $ ls
+	id_rsa id_rsa.pub
 
 `id_rsa` is your private key file, and `id_rsa.pub` is your public key. Remember not to distribute the private key!
 
@@ -64,6 +67,13 @@ open PuTTYGen, click Generate, and then save the public and private keys somewhe
 In order to make it so that you don't need to type your password when you SSH into the CS machines, we need to add your public key to the server's authorized_keys file.
 
 In one command, you can append your public key to the authorized_keys file on data.cs.purdue.edu
+
+####Linux
+
+`ssh-copy-id <yourusername>@data.cs.purdue.edu`
+####OSX
+You can either install [this port of linux's ssh-copy-id](https://github.com/beautifulcode/ssh-copy-id-for-OSX) or run this command which appends `id_rsa.pub` to ` ~/.ssh/authorized_keys` on the remote machine
+
 
 `cat ~/.ssh/id_rsa.pub | ssh <yourusername>@data.cs.purdue.edu "cat >> ~/.ssh/authorized_keys"`
 
@@ -88,4 +98,7 @@ Note: SSH-based authentication will only work if you clone the repository using 
 If you working across multiple machines (say keeping your cs180 lab in a github repository), you'll need to generate and add both your personal computer and your cs server's authorized keys to github (add a new key for each in settings)
 
 
- 
+#Summary 
+1. Generate a public + private key pair (**ssh-keygen** for UNIX, **PuTTYGen** for Windows)
+2. Place the public key on remote machines, github account settings, etc
+3. Initiate a connection to the server! UNIX terminals will automatically use your client machine's key, you need to specify it manually for PuTTY
