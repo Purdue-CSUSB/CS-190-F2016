@@ -16,11 +16,11 @@ There are two great uses for them (among others):
 Basically, on the machine you want to connect to other servers with, you need to generate a public key file and a private key file.
 You then give your public key (id_rsa.pub) to the server you want to connect to, and it adds the key to its 'whitelist', known as the authorized_keys file ***never*** give your private key to anyone, treat it like you would with a secure password.
 
-If you lose your key (like if you've lost your computer) or it is compromised, you can just invalidate that key anywhere its used by removing it from the authorized_keys file
+If you lose your key (like if you've lost your computer) or it is compromised, you can just invalidate/revoke that key anywhere its used by removing the public key from the authorized_keys file on all your remote machines, from github, etc
 ##Generating Keys
 ### (OSX & Linux based Systems)
 open up terminal, and run the command `ssh-keygen`
-It will ask you where you want to save it, and for an optional passphrase & confirmation of passphrase. A passphrase is really only necessary for high security applications, and the main reason you are probably setting up an SSH key is for the convenience of not typing in your password
+It will ask you where you want to save it, and for an optional passphrase & confirmation of passphrase. A passphrase is really only necessary for high security applications, and the main reason you are probably setting up an SSH key is for the convenience of not typing in your password. If someone ever gets ahold of your computer they would have access to your connections without typing in a passphrase/password, so you could just revoke the keys as mentioned above
 
 You can just press enter 3 times to accept the defaults.
 
@@ -102,3 +102,7 @@ If you working across multiple machines (say keeping your cs180 lab in a github 
 1. Generate a public + private key pair (**ssh-keygen** for UNIX, **PuTTYGen** for Windows)
 2. Place the public key on remote machines, github account settings, etc
 3. Initiate a connection to the server! UNIX terminals will automatically use your client machine's key, you need to specify it manually for PuTTY
+
+##Reminders
+* Never share private keys!
+* You can revoke/invalidate keys by removing your public key from everywhere that you placed it (ie delete it from the authorized_keys file on remote machines and from your github settings)
