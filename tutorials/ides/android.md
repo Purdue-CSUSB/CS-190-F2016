@@ -1,14 +1,7 @@
 # Getting Started With Android Studio
 Copyright 2015 Joseph Khawly
 
-This tutorial will teach you the basics of Android Studio. After this, you'll have a better understanding of how this IDE works and will be able to effectively use it for your Android project in CS 180.
-
-## Table of contents
-- Installation and setup
-- Creating your first Android Studio Project
-- Customizing your IDE
-- Version Control and GitHub Integration
-
+Android Studio is an IDE developed by Google. The beta version was released in June 2014, and the first stable version was released in December 2014. It has since replaced Eclipse as the primary IDE for Android development.
 
 ## Installation
 1.  Head over to https://developer.android.com/sdk/index.html and click "Download Android Studio". 
