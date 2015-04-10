@@ -16,12 +16,14 @@ Android Studio is an IDE developed by Google. The beta version was released in J
 5. Accept the license agreements (you don't have to read them if you don't want to).
 6. Click "Finish" and wait for the downloads to complete.
 
-## Customizing Your IDE
+## A Quick Tour
 
 
 
 ## Version Control and GitHub Integration
 Android Studio also allows you to add version control to your projects and upload them to GitHub right in the IDE.
+
+To do this, go to VCS->Import into Version Control->Share Project on GitHub.
 
 
 
