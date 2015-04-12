@@ -1,3 +1,5 @@
+Copyright 2015 [Scott Opell](http://scottopell.com)
+
 # Vim
 ## About Vim
 ### Background Information
@@ -158,14 +160,138 @@ If you want to replace every instance everywhere, you can add `g` at the end.
 `:%s/needle/vimrox/g`
 
 
+### Buffers
+
+A `buffer` is vim's word for an open file. But that's not quite right. If you
+have a new tab or new file that you haven't saved yet, that is also a buffer.
+
+If you need to get a new buffer in your current tab/split (both covered below),
+you can use `:enew` to create a new buffer in place of the current one. If you
+haven't saved your buffer and you have changes, then vim won't let you throw
+those changes away unless you add a bang `:enew!`
+
+Finally, all of the commands covered in the very first section (`:w`, `:wq`,
+`:q`, etc), are actually acting on the current buffer. Find an expanded list
+below.
+
+sequence     | result
+----------   | -------
+`:q`         | quit
+`:q!`        | quit without saving
+`:wq`        | save (write) and quit
+`:w`         | save (write)
+`:e <file>`  | opens `<file>` in the current buffer
+`:e! <file>` | opens `<file>` in the current buffer and discards the current contents
+`:qa`        | quit all open buffers (tabs/splits)
+`:wqa`       | saves and quits all open buffers (tabs/splits)
+
+
 ### Tabs
-TODO
+
+Tabs are a pretty standard tool from any IDE, and you can rest easy knowing
+that vim has you covered here too.
+
+sequence        | result
+----------      | -------
+`:tabnew`       | creates a new tab to the right of your current tab
+`:tabp` OR `gT` | switch one tab left
+`:tabn` OR `gt` | switch one tab right
+*n*`gt`         | go to the *n*th tab
+
+> Note: on the `gt` and `gT` commands that there is no `:`, so you just hit one
+after the other from normal mode
 
 ### Splits
-TODO
+
+Splits are useful for fitting more than one file onto the screen. You can do
+either vertical or horizontal splits, and you can put as many splits as you
+want.
+
+> Super advanced, emulate @kirbyk's favorite setup with the vim plugin
+`GoldenView`
+
+sequence | result
+-------- | -------
+`:sp`    | Split the current buffer **horizontally** into two
+`:vsp`    | Split the current buffer **vertically** into two
+`ctrl + w l` | move to the buffer **right** of the current one
+`ctrl + w h` | move to the buffer **left** of the current one
+`ctrl + w j` | move to the buffer **below** of the current one
+`ctrl + w k` | move to the buffer **above** of the current one
+
+In my opinion, having to hit `ctrl + w` before each split movement command is
+really annoying. Add the following lines to your `~/.vimrc` file to map
+ctrl + l to move right, ctrl + h to move left, etc.
+
+```vimL
+"  vim splits
+" easier mappings for switching panes
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+```
 
 ### Macros
-TODO
+Macros are one very unique feature of vim that are very powerful, but quite
+intimidating at first. Try not to feel too intimidated by these, start out
+with small easy tasks and work your way up.
+
+Macros let you record a sequence of commands and replay them over any text.
+One use case would be if you wanted to change a list formatted like this
+
+```
+Best Editors
+1) vim
+2) any other editor with vim mode
+3) nano
+43) jk about nano
+```
+
+to this
+
+```
+Best Editors
+- vim
+- any other editor with vim mode
+- nano
+- jk about nano
+```
+
+This macro would look something like this.
+1. start recording by hitting `qt` (`t` is a random letter, we'll come back
+to this)
+this macro in (pick any letter).
+2. If you hit `f` then `)`, this will `f`ind the first `)` character in the
+current line.
+3. Next hit `l` to move after the `)`
+4. Do `c^` to delete all the text to the left until the beginning of the line
+AND move into insert mode
+5. Type a '-'  to get the new formatting
+6. Exit insert mode (ESC)
+7. Move down one line (`j`)
+8. Hit `q` to stop recording the current macro
+
+Now you can replay this macro with `@t`
+
+AND, to automate this further, if you have 10 lines you want to do this for,
+you can do `10@t`, which will play this macro over 10 times
+
+A few things to note from this example, instead of using absolute movements
+(move 2 characters right), we use anchors throughout the text, to that for
+numbers with more than one digit, this still works.
+
+Another is going down one line at the end, this allows us to replay this macro
+multiple times, otherwise it would just do everything on the same line. We
+could have avoided this by using a find command (`/)`) instead of `f`, but I've
+found this is a good habit to get into.
+
+sequence | result
+---------| ------
+`q`*letter* | start recording a macro into the register called *letter*
+`@`*letter* | play back the macro at *letter* from the current position
+*n*`@`*letter* | play back the macro at *letter* from the current position *n* times
+
 
 ### Autocomplete
 TODO
