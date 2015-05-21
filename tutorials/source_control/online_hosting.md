@@ -23,4 +23,15 @@ Let's take a look at what the profile page looks like:
 - Definitely include your email and personal website. If you don't have a website, [GitHub Pages](https://pages.github.com/) can help you set one up.
 - Don't worry about how many followers you have or how many stars your repos have.
 
+##Creating a Repository
+1. Click on the '+' button next to your username.
+2. Give the repository a name and click "Create Repository".
+3. copy the url and add the repo as a remote to an exising one on your computer.
+4. Push your commits by typing:
+ 	```
+ 	git push -u origin master
+ 	```
+
 ## Forking and Cloning
+
+## Collaboration
