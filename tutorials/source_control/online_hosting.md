@@ -3,7 +3,7 @@
 
 ## Why would I use this?
 
-In CS, what matters most is what you make, so you want a place to store those things for friends and recruiters to see. GitHub does just that. It serves as a portfolio of your work. Just make sure to include your URL on your resume (or wear [this t-shirt](https://github.myshopify.com/products/github-username-shirt) at hackathons and company recruiting days). You can also find some great programs that you didn't even know you wanted, like [this](https://github.com/nvbn/thefuck).
+In CS, what matters most is what you make, so you want a place to store those things for friends and recruiters to see. GitHub does just that. It serves as a portfolio of your work. Just make sure to include your URL on your resume (or wear [this t-shirt](https://github.myshopify.com/products/github-username-shirt) at hackathons and company recruiting days). You can also search GitHub and find some great programs that you didn't even know you wanted, like [this](https://github.com/nvbn/thefuck).
 
 ## Student developer pack
 
@@ -26,8 +26,13 @@ Let's take a look at what the profile page looks like:
 ##Creating a Repository
 1. Click on the '+' button next to your username.
 2. Give the repository a name and click "Create Repository".
-3. copy the url and add the repo as a remote to an exising one on your computer.
-4. Push your commits by typing:
+3. Copy the url and add the repo as a remote to an exising one on your computer.
+	
+	```
+	git remote add origin <URL>
+	```
+4. Push your commits.
+
  	```
  	git push -u origin master
  	```
