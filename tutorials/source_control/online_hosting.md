@@ -1,9 +1,9 @@
 # GitHub
-
+Copyright 2015 Joseph Khawly
 
 ## Why would I use this?
 
-In CS, what matters most is what you make, so you want a place to store those things for friends and recruiters to see. GitHub does just that. It serves as a portfolio of your work. Just make sure to include your URL on your resume (or wear [this t-shirt](https://github.myshopify.com/products/github-username-shirt) at hackathons and company recruiting days). You can also search GitHub and find some great programs that you didn't even know you wanted, like [this](https://github.com/nvbn/thefuck).
+In CS, the stuff that matters most is what you make, so you want a place to store those things for friends and recruiters to see. GitHub does just that. Just make sure to include your URL on your resume (or wear [this t-shirt](https://github.myshopify.com/products/github-username-shirt) at hackathons and company recruiting days) so that people can find it. You can also search GitHub and find some great programs that you didn't even know you wanted, like [this](https://github.com/nvbn/thefuck).
 
 ## Student developer pack
 
@@ -23,7 +23,7 @@ Let's take a look at what the profile page looks like:
 - Definitely include your email and personal website. If you don't have a website, [GitHub Pages](https://pages.github.com/) can help you set one up.
 - Don't worry about how many followers you have or how many stars your repos have.
 
-##Creating a Repository
+## Creating a Repository
 1. Click on the '+' button next to your username.
 2. Give the repository a name and click "Create Repository".
 3. Copy the url and add the repo as a remote to an exising one on your computer.
@@ -31,12 +31,21 @@ Let's take a look at what the profile page looks like:
 	```
 	git remote add origin <URL>
 	```
-4. Push your commits.
+4. After you make commits, push them to the remote.
 
  	```
  	git push -u origin master
  	```
 
 ## Forking and Cloning
+Forking reposiories allows you to contribute them by submitting your changes through a pull request.
+
+1. Find the repo for some project you want to contribute to.
+2. Click the "fork" button in the top right corner.
+3. Clone the repo to your computer.
+
+	```
+	git clone <repo>
+	```
 
 ## Collaboration
