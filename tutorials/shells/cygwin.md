@@ -17,12 +17,22 @@ Once you get used to some of the great console features of a UNIX-like operating
 3. Click "Next", choose to install from the internet, and click "Next" twice to accept the root install and local package directories. Click "Next" to accept your internet connection settings.
 4. Select any package download site from the list. Click "Next" to download the packages from the mirror download site.
 5. At this screen, you can search and select packages to install. I recommend `curl`, `wget`, `openssh`, `git`, and `vim`. You can expand package categories using the `+` to the left of the category name. 
+![Package List](https://raw.githubusercontent.com/jay-hankins/CSToolsCourse/master/tutorials/shells/cygwin_screenshots/Packages.PNG)
+
+
 6. Mark a package to be downloaded by clicking the `⟳` to the left of "Skip".
+![Marked package to install](https://github.com/jay-hankins/CSToolsCourse/raw/master/tutorials/shells/cygwin_screenshots/search_openssh.PNG)
+
+
 7. Click "Next" when you've selected your desired packages, and "Next" again to download and install them. Wait patiently while the Cygwin installer downloads and installs the packages and their dependencies.
 8. Click "Finish" to complete the installation.
 
 ## How do I use it?
-This is the easy part. Run the Cygwin terminal (called "Cygwin64 Terminal" on 64-bit installations). A Cygwin terminal will open, ready to take your commands. Try a few commands, like `ls` or `sed` to make sure it's working correctly. If `ls` simply returns a blank line, you can assume Cygwin is working correctly. 
+This is the easy part. Run the Cygwin terminal (called "Cygwin64 Terminal" on 64-bit installations). A Cygwin terminal will open, ready to take your commands. 
+
+![Cygwin64 Terminal](https://github.com/jay-hankins/CSToolsCourse/raw/master/tutorials/shells/cygwin_screenshots/successful_installation.PNG)
+
+Try a few commands, like `ls` or `sed` to make sure it's working correctly. If `ls` simply returns a blank line, you can assume Cygwin is working correctly. 
 
 ## What more can I do with it?
 Well, Cygwin lets you run practically any Linux tool. To install additional packages after your initial installation, just re-run `setup.exe` with the same path options as the first time. 
