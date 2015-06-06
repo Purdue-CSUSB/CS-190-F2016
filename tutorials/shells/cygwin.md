@@ -40,6 +40,6 @@ Well, Cygwin lets you run practically any Linux tool. To install additional pack
 I recommend installing [apt-cyg](https://github.com/transcode-open/apt-cyg) to get `apt-get`-like functionality in Cygwin, letting you install packages much more easily. 
 
 ## I have more questions or comments.
-~~Keep them to yourself.~~ ;)
+~~Keep them to yourself.~~ :wink:
 
 You can talk to us during your CS 190 lab, or email me at [JH@purdue.edu](mailto:JH@purdue.edu). 
