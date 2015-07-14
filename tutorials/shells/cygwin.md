@@ -56,6 +56,6 @@ Summary
 I have more questions or comments.
 ----------------------------------
 
-~~Keep them to yourself.~~ :wink:
+<sup><sub>~~Keep them to yourself.~~ :wink:</sub></sup>
 
 You can talk to us during your CS 190 lab, or email me at [JH@purdue.edu](mailto:JH@purdue.edu) for a quicker response.
