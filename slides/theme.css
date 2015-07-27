@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Patua+One:400,700,400italic);
+
+body { font-family: 'Droid Serif'; }
+.remark-slide {
+    background-image: url(background1.png);
+    background-size: cover;
+}
+.remark-slide-content {
+    font-size: 20pt;
+    line-height: 40pt;
+    background:rgba(0,0,0,0);
+}
+.remark-slide-content h1 {
+    font-size: 70pt;
+    line-height: 55pt;
+}
+h1, h2, h3 {
+    font-family: 'Patua One';
+    font-weight: normal;
+}
+
+.remark-inline-code { font-family: 'Courier'; }
+
+.remark-code { 
+    color: white !important;
+    background-color: black !important;
+    font-family: 'Courier'; 
+}
+
+.title-slide { 
+    background-image: url(background2.png);
+    background-size: cover;
+}
+
+.highlight {
+    background-color: yellow;
+}
