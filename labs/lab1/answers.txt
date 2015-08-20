@@ -5,10 +5,10 @@
 # NOTE: Ignore the line directly below any "# ignore" statement.
 
 # ignore
-cd; curl -sL https://raw.githubusercontent.com/PurdueCS190/lab2/master/lab2init | /bin/bash
+cd; curl -sL https://raw.githubusercontent.com/PurdueCS190/lab1/master/lab1init | /bin/bash
 
 # ignore
-cd ~/cs190lab2
+cd ~/cs190lab1
 
 
 # ==========================
@@ -31,7 +31,7 @@ ls cat
 
 
 # ignore
-cd ~/cs190lab2
+cd ~/cs190lab1
 
 
 # -----------------
@@ -51,7 +51,7 @@ cd ~/cs190lab2
 
 
 # ignore
-cd ~/cs190lab2/dog
+cd ~/cs190lab1/dog
 
 
 # -----------------
@@ -61,7 +61,7 @@ cd ~/cs190lab2/dog
 
 
 # ignore
-cd ~/cs190lab2/fox/sounds
+cd ~/cs190lab1/fox/sounds
 
 
 # -----------------
@@ -71,7 +71,7 @@ cd ~/cs190lab2/fox/sounds
 
 
 # ignore
-cd ~/cs190lab2/cat/sounds
+cd ~/cs190lab1/cat/sounds
 
 
 # -----------------
