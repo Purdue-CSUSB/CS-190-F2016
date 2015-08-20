@@ -1,0 +1,81 @@
+#/bin/bash
+
+# CS190 Lab2 Answer Sheet
+
+# NOTE: Ignore the line directly below any "# ignore" statement.
+
+# ignore
+cd; curl -sL https://raw.githubusercontent.com/PurdueCS190/lab2/master/lab2init | /bin/bash
+
+# ignore
+cd ~/cs190lab2
+
+
+# ==========================
+# Directions
+# ==========================
+# Follow the format below to answer each numbered task.
+#
+# -----------------
+# Task 0 Answer
+# -----------------
+ls cat
+
+
+
+
+
+# ==========================
+# Beginning of answer sheet.
+# ==========================
+
+
+# ignore
+cd ~/cs190lab2
+
+
+# -----------------
+# Task 1 Answer
+# -----------------
+
+
+# -----------------
+# Task 2 Answer
+# -----------------
+
+
+# -----------------
+# Task 3 Answer
+# -----------------
+
+
+
+# ignore
+cd ~/cs190lab2/dog
+
+
+# -----------------
+# Task 4 Answer
+# -----------------
+
+
+
+# ignore
+cd ~/cs190lab2/fox/sounds
+
+
+# -----------------
+# Task 5 Answer
+# -----------------
+
+
+
+# ignore
+cd ~/cs190lab2/cat/sounds
+
+
+# -----------------
+# Task 6 Answer
+# -----------------
+
+
