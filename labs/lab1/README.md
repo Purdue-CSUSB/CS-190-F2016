@@ -43,7 +43,7 @@ You should apply to BoilerMake, Purdue's hackathon. More info about what BoilerM
 
 ## The Lab ##
 
-Before starting the lab, please navigate to the [Lecture 1 Cheat Sheet](https://github.com/purduecs190/syllabus/blob/master/lecture01-basic-terminal-commands.md) to review all the common commands.
+Before starting the lab, please navigate to the [Lecture 1 Cheat Sheet](https://github.com/Purdue-CSUSB/CSToolsCourse/blob/master/labs/lab1/lecture01-basic-terminal-commands.md) to review all the common commands.
 
 Throughout this lab we will give you specific environment parameters and you will have to give the appropriate command to fulfill the action we ask of you. All answers should only contain one primary command (mv, cp, rm, etc.). We will ask you to complete tasks based on a fresh `~/cs190lab1` folder, so it may be wise to be run the "Magic Command" before working on each task.
 
@@ -104,7 +104,7 @@ There are 6 tasks, and you will write 6 **one line** terminal commands that fulf
 
 All commands should be recorded in answers.txt. To download the answer sheet below, right-click on the file and click "Save File As" and save it to your **Downloads** folder.
 
-[answers.txt Download Link](https://raw.githubusercontent.com/PurdueCS190/lab1/master/answers.txt)
+[answers.txt Download Link](https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab1/answers.txt)
 
 > NOTE: Do not save this file within `~/cs190lab1` because that folder and all of its contents will be erased each time you run the "Magic Script"
 
@@ -196,7 +196,7 @@ This above answer is allowed because it is on one line and only contains one bas
 
 
 #### End of Lab ####
-That is the last of the tasks. You can raise your hand and get checked off, but please do the `Extra\ Fun*` sections before you leave.
+That is the last of the tasks. You can raise your hand and get checked off, but please do the `Extra\ Fun*` sections before you leave. If you don't finish before the end of the lab, email the `answers.txt` file to your lab TAs.
 
 
 ## Extra Fun ##
@@ -212,7 +212,7 @@ Now look at the entire folder structure of your `~/cs190lab1` folder by running 
 
 
 ## More Extra Fun ##
-View the [source](https://github.com/PurdueCS190/lab1/blob/master/lab1init) of the Magic script. You know almost everything that is going on in this script!
+View the [source](https://github.com/Purdue-CSUSB/CSToolsCourse/blob/master/labs/lab1/lab1init) of the Magic script. You know almost everything that is going on in this script!
 
 ----
 
