@@ -6,8 +6,8 @@
     + [Spencer Brown](mailto:sb@purdue.edu)
     + [Evan Walsh](mailto:evanw@purdue.edu)
 * **Need help?**
-    + For course questions, use [Piazza](https://piazza.com/class/hz7luhvej2a4d0)
-    + For other issues, email the [TA Mailing List](mailto:cs190-tools-ta@cs.purdue.edu)
+    + For course questions, use [Piazza](https://piazza.com/class/idq1xbj4e7m460)
+    + For other issues, email the [TA Mailing List](mailto:cs190-tools-tas@cs.purdue.edu)
 
 ## Course Description
 
@@ -31,7 +31,7 @@ It continues to be run by USB and is therefore entirely student-led.
 
 Labs are mandatory and they will be over topics taught in the previous week's lecture.
 
-* [Lab 1](https://github.com/PurdueCS190/lab1) - Introduction to CS190
+* [Lab 1](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab1) - Introduction to CS190
 
 ### Grading
 
