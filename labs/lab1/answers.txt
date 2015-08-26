@@ -1,11 +1,11 @@
-#/bin/bash
+#!/usr/bin/env bash
 
 # CS190 Lab2 Answer Sheet
 
 # NOTE: Ignore the line directly below any "# ignore" statement.
 
 # ignore
-cd; curl -sL https://raw.githubusercontent.com/PurdueCS190/lab1/master/lab1init | /bin/bash
+cd; curl -sL https://raw.githubusercontent.com/PurdueCS190/lab1/master/lab1init | bash
 
 # ignore
 cd ~/cs190lab1
