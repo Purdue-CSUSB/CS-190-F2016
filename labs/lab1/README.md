@@ -49,7 +49,7 @@ Throughout this lab we will give you specific environment parameters and you wil
 
 
 ### The Magic Command ###
-    cd; curl -sL https://raw.githubusercontent.com/PurdueCS190/lab1/master/lab1init | /bin/bash
+    cd; curl -sL https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab1/lab1init | /bin/bash
 
 The command above, when run in a terminal, will create a folder structure (shown below) located within your home directory. Throughout this lab, you will be moving these files around, deleting some, and duplicating others. If at any time you want to reset to the default solder structure, you can run the "Magic Command" again. It will delete the old one and give you a new one to work with.
 
