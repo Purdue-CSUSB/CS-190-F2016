@@ -33,7 +33,7 @@ Piazza is where we'll post all course announcements (deadlines, extensions, etc)
 
 ## BoilerMake (optional) ##
 
-You should apply to BoilerMake, Purdue's hackathon. More info about what BoilerMake is go [here](https://piazza.com/class/hz7luhvej2a4d0?cid=9)
+You should apply to BoilerMake, Purdue's hackathon.
 
 1. Go to [BoilerMake.org](http://boilermake.org)
 
