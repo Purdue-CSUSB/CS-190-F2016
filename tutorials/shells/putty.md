@@ -17,12 +17,12 @@ This is the easy part.
 ## How do I use it to connect to a remote computer?
 - In the main PuTTY Configuration Window, put your username and the hostname of the computer you want to connect to like: `username@hostname`.
   - Note: `data.cs.purdue.edu` is a popular host to connect to and will allow you to access all of your files just as if you were logged onto a lab machine. That said, you can SSH in to most lab machines, such as `moore05.cs.purdue.edu` and access your files through that host as well.
-  - ![PuTTY config screen 1](https://github.com/jay-hankins/CSToolsCourse/raw/master/tutorials/shells/putty_screenshots/putty.PNG)
+  - ![PuTTY config screen 1](https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/raw/master/tutorials/shells/putty_screenshots/putty.PNG)
 
 - Click "Open" at the bottom of the window. PuTTY will begin the session. This is all you need to do for a basic SSH session. Feel free to save the session in the Saved Sessions list.
 - You can configure advanced options, like X11 forwarding (for using GUI applications remotely) or SSH key authentication (for more secure, password-less logons).
-  - ![PuTTY config screen 2](https://github.com/jay-hankins/CSToolsCourse/raw/master/tutorials/shells/putty_screenshots/putty2.PNG)
-  - ![PuTTY config screen 3](https://github.com/jay-hankins/CSToolsCourse/raw/master/tutorials/shells/putty_screenshots/putty3.png)
+  - ![PuTTY config screen 2](https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/raw/master/tutorials/shells/putty_screenshots/putty2.PNG)
+  - ![PuTTY config screen 3](https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/raw/master/tutorials/shells/putty_screenshots/putty3.png)
 
 ## How do I use it to connect to hardware?
 There's another use case for PuTTY, which is a little more advanced, but still very useful. PuTTY can be used as a terminal emulator to connect to hardware on a serial port. This is useful for configuring hardware devices, such as an Arduino board or a Cisco router.
