@@ -35,7 +35,7 @@ Labs are mandatory and they will be over topics taught in the previous week's le
 
 ### Grading
 
-This is a pass/fail class. You will fail if you miss more than 3 points during the semester.
+The grading for this class is simple. You get an A if you miss 3 or fewer points during the course of the semester. You will get an F if you miss more than 3 points during the semester. Take this class seriously. It will help your GPA (or hurt it)
 
 You get a point for every lecture or lab
 
