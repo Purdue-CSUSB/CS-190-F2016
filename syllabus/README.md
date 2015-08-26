@@ -27,6 +27,8 @@ It continues to be run by USB and is therefore entirely student-led.
 
 #### Lecture Notes/Cheat Sheets/Slides
 
+* [Lecture 1](https://docs.google.com/presentation/d/19uVm13ySbhUJ0ZTEIjv63eIJdOR9y1vjDNL84_vrBHw/edit?usp=sharing)
+
 ### Labs
 
 Labs are mandatory and they will be over topics taught in the previous week's lecture.
