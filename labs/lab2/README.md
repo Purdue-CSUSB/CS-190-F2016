@@ -114,7 +114,7 @@ First you need to get the DrJava source code. Run:
 
     Working Directory:  ~/cs190lab2/drjava
 
-    Phrase:             "Untitled file has been modified. Would you like to save it?"
+    Phrase:             "Are you sure you want to quit DrJava?"
 
     Desired Action:     print out the file(s) and line number where the phrase above appears
                         within the working directory. You need to search through the drjava
