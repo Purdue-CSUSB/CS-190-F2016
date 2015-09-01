@@ -157,6 +157,8 @@ First you need to get the DrJava source code. Run:
     ```
 
 7. Quit DrJava to see your new message!
+    * You might have to enable the "Prompt Before Quit" option.
+    * Check Edit > Preferences > Notifications > "Prompt Before Quit"
 
 
 ## Grading ##
