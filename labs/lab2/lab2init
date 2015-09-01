@@ -1,4 +1,4 @@
-#/bin/bash
+#!/usr/bin/env bash
 
 # clean slate
 rm -rf ~/cs190lab2
