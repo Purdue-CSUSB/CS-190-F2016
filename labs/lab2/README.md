@@ -15,7 +15,9 @@ Depending on your working environment, perform the appropriate action:
 
 ----
 
-\* You must have X11 forwarding enabled. If you are on the Windows Lab Computer, follow the instructions below:
+### \* You must have X11 forwarding enabled. ###
+
+#### Windows Instructions ####
 
 1. Search for 'Xming' in the start menu and run it.
 2. Open PuTTy
@@ -23,6 +25,13 @@ Depending on your working environment, perform the appropriate action:
 4. Choose 'X11' from 'SSH' list
 5. Check 'Enable X11 Forwarding'
 6. Connect like normal to `data.cs.purdue.edu` within PuTTy.
+
+#### OSX Instructions ####
+
+1. Install [XQuartz](http://xquartz.macosforge.org/landing/)
+2. Log out and log back in
+3. Open your terminal
+4. Connect with the `-X` flag, e.g. `ssh -X <user>@data.cs.purdue.edu`
 
 ----
 
