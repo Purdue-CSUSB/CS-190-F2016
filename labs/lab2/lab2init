@@ -1,0 +1,11 @@
+#/bin/bash
+
+# clean slate
+rm -rf ~/cs190lab3
+
+wget https://raw.githubusercontent.com/PurdueCS190/lab3/master/cs190lab3.tgz
+tar -xf ~/cs190lab3.tgz
+rm -rf ~/cs190lab3.tgz
+
+# say its done
+echo -e '\ndirectory ~/cs190lab3 reset!'
