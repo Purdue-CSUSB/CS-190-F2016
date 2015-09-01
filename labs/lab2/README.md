@@ -46,7 +46,7 @@ This section is just like the last lab. You are given tasks that each have:
 
     Working Directory:  your home directory
 
-    File URL:           https://raw.githubusercontent.com/PurdueCS190/lab2/master/answers.txt
+    File URL:           https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab2/answers.txt
 
     Desired Action:     download the answers.txt file from the URL above using the terminal
                         (may not use browser!)
@@ -136,12 +136,12 @@ First you need to get the DrJava source code. Run:
     pluma drjava/src/edu/rice/cs/drjava/DrJava.java +349 &
     ```
 
-2. Replace the string `"Untitled file has been modified. Would you like to save it?"` with `"YOU FORGOT TO SAVE YOUR FILE!!!"`
+2. Replace the string `"Are you sure you want to quit DrJava?"` with `"DONT QUIT LOVE ME!"`
 3. Save the file
 4. Tell ant where Java 8 is
 
     ```
-    export JAVA8_HOME=/opt/oracle-jdk-bin-1.8.0.20/
+    export JAVA8_HOME=/opt/oracle-jdk-bin-1.8.0.45/
     ```
 
 5. Recompile DrJava by running the command
@@ -156,7 +156,7 @@ First you need to get the DrJava source code. Run:
     java -jar ~/cs190lab2/drjava/drjava.jar
     ```
 
-7. Type anything into the main text area, and then quit DrJava to see your new message!
+7. Quit DrJava to see your new message!
 
 
 ## Grading ##
