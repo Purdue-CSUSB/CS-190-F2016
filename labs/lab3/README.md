@@ -6,7 +6,7 @@ Before starting the lab, **OPEN THE [REFERENCE SHEET](https://github.com/Purdue-
 
 ### The Magic Command ###
 
-**ONLY RUN THIS ONCE.**
+**ONLY RUN THIS ONCE. IF YOU ALREADY HAVE A ~/bin DIRECTORY RENAME IT TO AVOID LOOSING YOUR PROGRAMS**
 
 	cd; wget -NP ~/bin https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab3/dirinfo
 
@@ -101,6 +101,13 @@ Finally, run the command
 
     dirinfo
 
+If it doesn't work, it may be because ~/bin isn't in your path variable. Run the command
+
+    export PATH=~/bin:$PATH
+
+to add it to your path. This will esentially look for the executable command in your personal executables first and then look in other directories that are in your
+path variable.
+
 ## Part 3 - Upgrade Your Shell (optional but we recommend you try it) ##
 
 This is the section that makes the terminal more personalized and usable.
@@ -192,6 +199,9 @@ In a terminal, with the TA present:
 3. run `i`
 4. run your personal alias
 5. ask a question about something you don't understand.
+
+If you don't complete the lab in the allotted time, email your `dirinfo` and `.zshrc` (or `.bashrc`) with your aliases to your TA. Make sure to tell them where to find 
+your personal alias.
 
 
 ## End of Lab ##
