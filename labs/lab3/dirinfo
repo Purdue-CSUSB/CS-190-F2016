@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# dirinfo: Print the current working directory and its contents
+
+# ============
+# INSTRUCTIONS
+# ============
+# 1. Below the "Command A", place either the answer from Task 1 or Task 2 
+#    (both do the same thing)
+# 
+# 2. Below the "Command B", place a command with 2+ arguments of choice that 
+#    lists the contents of the current working directory.
+
+
+# ==============
+# Example Output
+# ==============
+#
+# NOTE: Part below "--- Contents ---" varies. Yours does not need 
+#       to look the same as below. Make it how YOU want it to look.
+#
+# $ dirinfo
+# CWD: /homes/kkohlmor/cs190lab3
+# 
+# --- Contents ---
+# drwx--S---  3 kkohlmor kkohlmor  4096 Oct 29 04:24 .
+# drwx--S--x 42 kkohlmor kkohlmor  4096 Oct 29 04:22 ..
+# -rw-r-----  1 kkohlmor kkohlmor  1249 Oct 28 19:47 .bash_profile
+# -rwxr-x---  1 kkohlmor kkohlmor   744 Oct 28 19:49 .bashrc
+# drwx--S---  7 kkohlmor kkohlmor  4096 Oct 29 04:22 .git
+# -rw-r-----  1 kkohlmor kkohlmor  1585 Oct 29 02:14 .zshrc
+# -rw-r-----  1 kkohlmor kkohlmor   198 Oct 29 03:45 README.md
+# -rw-r-----  1 kkohlmor kkohlmor   201 Oct 29 04:22 dirinfo
+# -rwxr-x---  1 kkohlmor kkohlmor  1341 Oct 29 01:39 install.sh
+
+
+
+
+# ====================================================
+#                   Actual Script
+# ====================================================
+
+# ---------
+# Command A
+# ---------
+
+
+# ignore
+echo -e '\n--- Contents ---'
+
+
+# ---------
+# Command B
+# ---------
+
+
+
