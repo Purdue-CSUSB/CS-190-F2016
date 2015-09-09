@@ -29,6 +29,7 @@ It continues to be run by USB and is therefore entirely student-led.
 
 * [Lecture 1](https://docs.google.com/presentation/d/19uVm13ySbhUJ0ZTEIjv63eIJdOR9y1vjDNL84_vrBHw/edit?usp=sharing)
 * [Lecture 2](https://docs.google.com/presentation/d/17YtY16F6TJxB-v0ZOGJNsFa0PbDguDqgxx4GtWl0BiQ/edit?usp=sharing)
+* [Lecture 3](https://docs.google.com/presentation/d/1qcq1Luzy8q447IUvQxCQw1AQhoTHhStsP-g-L5xdV0c/edit?usp=sharing)
 
 ### Labs
 
@@ -36,6 +37,7 @@ Labs are mandatory and they will be over topics taught in the previous week's le
 
 * [Lab 1](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab1) - Introduction to CS190
 * [Lab 2](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab2) - More shell!
+* [Lab 3](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab3) - Your environment
 
 ### Grading
 
