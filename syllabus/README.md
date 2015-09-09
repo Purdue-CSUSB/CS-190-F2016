@@ -1,4 +1,4 @@
-# Purdue CS190 Syllabus
+# Purdue CS190 Syllabus (2015)
 
 * **Course Wiki:** [CS190](http://courses.cs.purdue.edu/cs19000:fall14:start)
 * **Instructors:**
