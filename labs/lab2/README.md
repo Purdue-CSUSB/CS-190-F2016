@@ -150,7 +150,7 @@ First you need to get the DrJava source code. Run:
 4. Tell ant where Java 8 is
 
     ```
-    export JAVA8_HOME=/opt/oracle-jdk-bin-1.8.0.45/
+    export JAVA8_HOME=$(java-config --jdk-home)
     ```
 
 5. Recompile DrJava by running the command
