@@ -17,11 +17,15 @@ We will be working with the DrJava source code again this week. If you are worki
 
 We have seeded the DrJava source code with some bugs that you will use your editing skills to fix. Run this command to download the buggy source code:
 
-    wget -N -P ~ https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab4/buggy-drjava.tar.gz
+```bash
+wget -N -P ~ https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab4/buggy-drjava.tar.gz
+```
 
 Extract the code in your home directory by running the command:
 
-    cd; tar -zxvf buggy-drjava.tar.gz
+```bash
+cd; tar -zxvf buggy-drjava.tar.gz
+```
 
 ### Fixing DrJava
 
@@ -31,13 +35,13 @@ First we will try to compile DrJava to see that it is in fact broken.
 
 * Tell ant where Java 8 is
 
-```
+```bash
 export JAVA8_HOME=/opt/oracle-jdk-bin-1.8.0.45/
 ```
 
 * Compile DrJava by running the command
 
-```
+```basn
 cd ~/drjava; ant jar
 ```
 
@@ -49,7 +53,7 @@ The first bug that we will fix is a spelling error in `DrJava.java`
 
 * Navigate to the `~/drjava` directory. Open `DrJava.java` with the command
 
-```
+```bash
 vim src/edu/rice/cs/drjava/DrJava.java
 ```
 
@@ -62,7 +66,7 @@ The next problem we have is a logical error causing the quit dialog to be comple
 
 * From the `~/drjava` directory, open `MainFrame.java` with the command
 
-```
+```bash
 vim src/edu/rice/cs/drjava/ui/MainFrame.java
 ```
 
@@ -76,13 +80,13 @@ vim src/edu/rice/cs/drjava/ui/MainFrame.java
 
 Recompile DrJava with the following command
 
-```
+```bash
 cd ~/drjava; ant jar
 ```
 
 Run DrJava with this command and verify that your changes fixed the bugs
 
-```
+```bash
 java -jar drjava.jar
 ```
 
