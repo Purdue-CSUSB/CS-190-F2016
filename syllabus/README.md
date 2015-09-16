@@ -30,7 +30,8 @@ It continues to be run by USB and is therefore entirely student-led.
 * [Lecture 1](https://docs.google.com/presentation/d/19uVm13ySbhUJ0ZTEIjv63eIJdOR9y1vjDNL84_vrBHw/edit?usp=sharing)
 * [Lecture 2](https://docs.google.com/presentation/d/17YtY16F6TJxB-v0ZOGJNsFa0PbDguDqgxx4GtWl0BiQ/edit?usp=sharing)
 * [Lecture 3](https://docs.google.com/presentation/d/1qcq1Luzy8q447IUvQxCQw1AQhoTHhStsP-g-L5xdV0c/edit?usp=sharing)
-* [How to Get Your First Internship](https://drive.google.com/open?id=1QeXQ8tVz7lbBLpxYVAZxbgVX-Oy5xiJMOpKYzy48nLA)
+* [How to Get Your First Internship](https://docs.google.com/presentation/d/1QeXQ8tVz7lbBLpxYVAZxbgVX-Oy5xiJMOpKYzy48nLA/edit?usp=sharing)
+* [Lecture 4 + How to Career Fair](https://docs.google.com/presentation/d/1p5Bsy503w449pXEM6EkqNOje-rfHVAaIwB3gPkcwplc/edit?usp=sharing)
 
 ### Labs
 
