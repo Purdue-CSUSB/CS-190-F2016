@@ -56,19 +56,19 @@ To save and exit files, you must be in command mode (click esc). You must type t
 
 Ctrl+Shift+P
 
-![](https://lh3.googleusercontent.com/lWKRb-vbmv5s4gnj06Q-bruj69cstggvdpy1WACQZ83w0GZBGSUaYO4ONwaN1ROh4AUiC5uiL8D4mvypHRt0g-o4QDTxBogtRhqwyIorQp17LHj6awOAEgJIoJvhNSJ5JEnB)
+![](https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/sublime1.png)
 
 #### Navigate Files
 
 Ctrl+P <Filename>
 
-![](https://lh3.googleusercontent.com/9TOajRRn3ppq0JaPzD8R6HkhwIahYukJ_-qlpxisWcdzdMQXbCmx40ziTVy6G954DhWbK78rx8DoMmU-blKwo3b52eF8wpnoNDGvNv-a0hC9VjZclK-EPUO4y4xoHC9sBNe-)
+![](https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/sublime2.png)
 
 #### Finding Functions in Files
 
 Ctrl+P @<Function Name>
 
-![](https://lh5.googleusercontent.com/f1ljv2-wF7sC0m4zu9htMdzHQMbqFVVyVgCeTB5GUuVTg5UrIlB2xRlCyo6Gnho-DTHqwLEolAb7yW7wVKer3GFh8ojI0F1Y55UMk8QIeABYE9Z0sNzeqD0lH4li4IRLpUyc)
+![](https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/sublime3.png)
 
 #### Package Control
 
@@ -76,7 +76,7 @@ Package control lets you install plugins for Sublime on the fly. You can install
 
 Ctrl+Shift+P "Package Control"
 
-![](https://lh4.googleusercontent.com/HlKWIM3hZUFyjvgA9P7hBiv9k9lswc7mrkhGVtsqlBlKkjfwXjlF1JIKTz8tnsnOKiJGLEgzKLgFUMzzIvxwiGpyJFM6fMvzbJoKjVE_s1CkT0QnK-YRyvE0JLkkj3b8ct5D)
+![](https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/sublime4.png)
 
 After selecting "Install Package," you type the name of the package you want to install, and click enter.
 
@@ -88,8 +88,8 @@ There are two ways to get multiple cursors.
 
 - Selecting text and hitting `Ctrl+D`
 
-![](http://i.imgur.com/62RS0C8.gif)
+![](https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/sublime5.gif)
 
 - Selecting lines and hitting `Ctrl+Shift+L`
 
-![](http://i.gyazo.com/9cf79c9957945b0ff56aa9e8bb240939.gif)
+![](https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/sublime6.gif)
