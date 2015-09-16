@@ -152,7 +152,7 @@ tar jxf Sublime\ Text\ 2.0.2\ x64.tar.bz2 -C ~/bin
 PATH=$PATH:$HOME/bin/Sublime\ Text\ 2
 ```
 
-Run Sublime with `sublime_text &`!
+Run Sublime with `sublime_text &`
 
 > If you want this to work permantetly, add `export PATH=$PATH:$HOME/bin/Sublime\ Text\ 2` to the end of your .zshrc (or .bashrc if you are using bash).
 
@@ -174,6 +174,13 @@ Once you have this array, you need to copy and paste it into `animal-stats.rb` l
 ![](https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/sublime9.png)
 
 Then you can run `ruby animal-stats.rb`!
+
+Hints:
+* Use the reference sheet to put a cursor on every line of `animals.txt`
+* Use all the cursors at once to add quotes and commas
+* Use the arrow keys to move all the cursors forward one character (to the beginning of the next line)
+* Use backspace to delete all the newlines at once
+* If you get stuck ask your TA for a hint
 
 ## Grading
 
