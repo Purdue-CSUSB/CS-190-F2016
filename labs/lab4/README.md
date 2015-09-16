@@ -188,9 +188,10 @@ Hints:
 
 ## Grading
 
-1. Show your comment on line 5329 of MainFrame.java to your TA
+1. Run this command to show your comment on line 5329 of MainFrame.java to your TA.
+    `sed -n '5320,5340p' ~/drjava/src/edu/rice/cs/drjava/ui/MainFrame.java`
 
-2. Run your DrJava and show the TA that you fixed the bugs
+2. Run your DrJava and show the TA that you fixed the bugs. `cd ~/drjava && java -jar drjava.jar`
 
 3. Check output of ruby program (`ruby animal-stats.rb`), output should look like this
 
