@@ -24,7 +24,7 @@ wget -N -P ~ https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master
 Extract the code in your home directory by running the command:
 
 ```bash
-cd; tar -zxvf buggy-drjava.tar.gz
+tar -zxvf ~/buggy-drjava.tar.gz -C ~
 ```
 
 ### Fixing DrJava
