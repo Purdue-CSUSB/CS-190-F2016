@@ -10,7 +10,7 @@ Before starting the lab, **OPEN THE [REFERENCE SHEET](https://github.com/Purdue-
 
 **NOTE: Don't do this if you already have a .vimrc customized to your liking!!!**
 ```bash
-wget -O ~/.vimrc https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/vimrc
+wget -nc -O ~/.vimrc https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/vimrc
 ```
 
 We will be working with the DrJava source code again this week. If you are working remotely (through ssh) make sure you have X11 forwarding enabled. If you forget how to do this, follow the setup instructions from [lab 2](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab2)
