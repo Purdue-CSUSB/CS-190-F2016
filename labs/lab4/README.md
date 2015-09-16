@@ -29,48 +29,48 @@ Extract the code in your home directory by running the command:
 
 First we will try to compile DrJava to see that it is in fact broken.
 
-1. Tell ant where Java 8 is
+* Tell ant where Java 8 is
 
 ```
 export JAVA8_HOME=/opt/oracle-jdk-bin-1.8.0.45/
 ```
 
-2. Compile DrJava by running the command
+* Compile DrJava by running the command
 
 ```
 cd ~/drjava; ant jar
 ```
 
-3. You should see a lot of compile errors
+* You should see a lot of compile errors
 
 #### Fix spelling error
 
 The first bug that we will fix is a spelling error in `DrJava.java`
 
-1. Navigate to the `~/drjava` directory. Open `DrJava.java` with the command
+* Navigate to the `~/drjava` directory. Open `DrJava.java` with the command
 
 ```
 vim src/edu/rice/cs/drjava/DrJava.java
 ```
 
-2. The problem is that each "static" keyword is misspelled as "statc". Use a vim command
+* The problem is that each "static" keyword is misspelled as "statc". Use a vim command
 to replace all instances of "statc" to "static" in this file (Hint: you can find how do do this in the [lecture slides](https://docs.google.com/presentation/d/1p5Bsy503w449pXEM6EkqNOje-rfHVAaIwB3gPkcwplc/edit?usp=sharing))
 
 #### Fix logical error
 
 The next problem we have is a logical error causing the quit dialog to be completely bypassed (even if there are unsaved changes).
 
-1. From the `~/drjava` directory, open `MainFrame.java` with the command
+* From the `~/drjava` directory, open `MainFrame.java` with the command
 
 ```
 vim src/edu/rice/cs/drjava/ui/MainFrame.java
 ```
 
-2. From within vim, navigate to line 5329 with a single command (i.e. don't just hold `j` until you get there)
+* From within vim, navigate to line 5329 with a single command (i.e. don't just hold `j` until you get there)
 
-3. On this line, remove the `&& false` from the `if` statement. (Hint: you can do this in command mode or insert mode)
+* On this line, remove the `&& false` from the `if` statement. (Hint: you can do this in command mode or insert mode)
 
-4. Write a comment on this line explaining the edit that you made (Hint: now you must use insert mode)
+* Write a comment on this line explaining the edit that you made (Hint: now you must use insert mode)
 
 #### Recompile and test
 
@@ -128,12 +128,20 @@ For part two we will add a couple of settings to your .vimrc that maybe useful.
 
 ![It should look similar to this](https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/vimrc1.png)
 
-### Part 2 - Sublime
+## Part 2 - Sublime
 
-#### Setup
+### Setup
 
 First create a directory for the lab in your home directory (no more magic command, you should be able to do this by
 yourself with `mkdir`). 
+
+Download `animals.txt` and `animal-stats.rb` using `wget`. The urls are:
+
+```
+https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/animals.txt
+and
+https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/animal-stats.rb
+```
 
 Next you need to install Sublime on your system. Run the following commands
 
@@ -151,7 +159,7 @@ Run Sublime with `sublime_text &`!
 
 In this part of the lab you are given two files `animals.txt` and `animal-stats.rb`. Your goal is to use Sublime to edit `animals.txt`, so you can insert it into `animal-stats.rb`, so that it can run properly.
 
-#### Multiple Cursors & Animals.txt
+### Multiple Cursors & Animals.txt
 
 `animals.txt` is a huge list of animals, you need to convert it into an `Array` of `Strings` like so.
 
@@ -169,9 +177,11 @@ Then you can run `ruby animal-stats.rb`!
 
 ## Grading
 
-1. Run your DrJava and show the TA that you fixed the bugs
+1. Show your comment on line 5329 of MainFrame.java to your TA
 
-2. Check output of ruby program (`ruby animal-stats.rb`), output should look like this
+2. Run your DrJava and show the TA that you fixed the bugs
+
+3. Check output of ruby program (`ruby animal-stats.rb`), output should look like this
 
 ```
 There are 591 animals with an average letter count of 10.
