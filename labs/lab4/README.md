@@ -135,12 +135,12 @@ For part two we will add a couple of settings to your .vimrc that maybe useful.
 First create a directory for the lab in your home directory (no more magic command, you should be able to do this by
 yourself with `mkdir`). 
 
-Download `animals.txt` and `animal-stats.rb` using `wget`. The urls are:
+Download `animals.txt` and `animal-stats.rb` using `wget`. The URLs are:
 
 ```
-https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/animals.txt
+https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab4/animals.txt
 and
-https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab4/animal-stats.rb
+https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab4/animal-stats.rb
 ```
 
 Next you need to install Sublime on your system. Run the following commands
