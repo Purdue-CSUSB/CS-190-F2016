@@ -1,6 +1,6 @@
-# CS190 Lab 4 - Vim & Sublime #
+# CS190 Lab 4 - Vim, Sublime, & Tmux #
 
-The purpose of this lab is for you to learn the basics of Vim and Sublime Text. After you finish this lab, you will have a much better understanding of text editing for programming
+The purpose of this lab is for you to learn the basics of Vim, Sublime Text, and Tmux. After you finish this lab, you will have a much better understanding of text editing for programming and terminal management.
 
 Before starting the lab, **OPEN THE [REFERENCE SHEET](https://github.com/Purdue-CSUSB/CSToolsCourse/blob/master/labs/lab4/lecture04-vim-sublime.md)**
 
@@ -189,19 +189,8 @@ This window has only 1 pane with a vim session open with a vertical split of `Pt
 
 ![](http://i.imgur.com/MXDvFc7.png)
 
-After completing this, de-attach this session!!
+After completing this, detach this session!!
 (Check cheatsheet for this)
-
-### Part 4 - Course Eval (Optional)
-
-Please take some time this week and next to fill out your course eval.
-
-- [http://www.purdue.edu/eval](http://www.purdue.edu/eval)
-
-
-We've also created our own course survey. It will make the course better:)
-
-- [http://goo.gl/forms/BVj4IBHeuo](http://goo.gl/forms/BVj4IBHeuo)
 
 
 ## Grading
@@ -211,7 +200,7 @@ Have a terminal open in the lab directory when you call your TA over.
 
 2. grep for BoilerMake in the jump_around file
   ```
-  grep "BoilerMake" jump_around.txt
+  grep -n "BoilerMake" jump_around.txt
   ```
 
 3. Check output of ruby program (`ruby animal-stats.rb`), output should look like this
