@@ -5,7 +5,8 @@ In this lab you'll go through a short program, identify the bugs and fix them.
 ### Download the source ###
 
 Use `wget` to download the source code for this lab. You can find the java file at
-https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab5/Transformer.java
+
+https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab5/Transformer.tar.gz
 
 ----
 
@@ -16,12 +17,12 @@ https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab5/Tr
 1. Open IntelliJ on your lab computer by going to Applications > Programming > IntelliJ IDEA
 2. Untar the source project by running the command `tar -zxvf Transformer.tar.gz` in the directory where you downloaded it
 3. Import the project by using File > Open in IntelliJ
-4. Go to Run > Run. The program spit out some output
+4. Go to Run > Run. The program will spit out some output
 5. To add a breakpoint, select the line you wish to break on and go to Run > Toggle breakpoint
 6. To run in debug mode, go to Run > Debug
 7. The buttons to step in, out, over, etc are all above the debug pane. Hover over to see what each does.
 
-![]()
+![](https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab5/intellij.png)
 
 ##### Using the jdb debugger #####
 
