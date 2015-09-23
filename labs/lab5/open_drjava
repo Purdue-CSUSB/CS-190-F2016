@@ -1,2 +1,0 @@
-#! /bin/sh
-env GENTOO_VM=oracle-jdk-bin-1.7 drjava $@

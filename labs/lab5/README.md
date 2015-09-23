@@ -2,37 +2,37 @@
 
 In this lab you'll go through a short program, identify the bugs and fix them.
 
-Before you start, open the reference sheet [HERE]()
-
 ### Download the source ###
 
 Use `wget` to download the source code for this lab. You can find the java file at
+https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab5/Transformer.java
 
 ----
 
 ## Things To Know ##
 
-##### Getting the DrJava debugger on Lab Machines #####
-DrJava on the lab machines defaults to Java version 8, and the debugger isn't compatible with java jdk > 7
-To get around this, you can use the shell script we've given below
+##### Using the IntelliJ debugger #####
 
-1. Open DrJava using the shell script we supply.
-2. `~/cs190lab5/open_drjava Transformer.java`
+1. Open IntelliJ on your lab computer by going to Applications > Programming > IntelliJ IDEA
+2. Untar the source project by running the command `tar -zxvf Transformer.tar.gz` in the directory where you downloaded it
+3. Import the project by using File > Open in IntelliJ
+4. Go to Run > Run. The program spit out some output
+5. To add a breakpoint, select the line you wish to break on and go to Run > Toggle breakpoint
+6. To run in debug mode, go to Run > Debug
+7. The buttons to step in, out, over, etc are all above the debug pane. Hover over to see what each does.
 
-##### Using the DrJava debugger #####
+![]()
 
-1. Right click on a line, select 'Toggle Breakpoint'
-2. Under the 'Debugger' menu option, enable 'Debug Mode'
-3. Hit Run
+##### Using the jdb debugger #####
+
+1. Open a terminal
+2. Compile Transformer.java by running the command `javac Transformer.java`
+3. Start jdb by running the command `jdb Transformer` within the directory with the .class file
+4. Type `help` from within jdb to see a list of all the available commands
 
 
 ## Start Here ##
-Compile and run `Transformer.java`. You do this in DrJava, or by using the command line utilities `javac` to compile and `java` to run it.
-
-Terminal example command to compile and run:
-`javac Transformer.java && java Transformer`
-
-You'll see some output that will look like this:
+When you first run the program, you'll see some output that will look like this:
 
 ```
 Original Input is: cs190 is sooooooo awesome!!!
