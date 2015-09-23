@@ -28,7 +28,7 @@ Untar the source project by running the command `tar -zxvf Transformer.tar.gz` i
 ##### Using the jdb debugger #####
 
 1. Open a terminal
-2. Compile Transformer.java by running the command `javac Transformer.java`
+2. Compile Transformer.java (with `-g` to get better debug information) by running the command `javac -g Transformer.java`
 3. Start jdb by running the command `jdb Transformer` within the directory with the .class file
 4. Type `help` from within jdb to see a list of all the available commands
 
