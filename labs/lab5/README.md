@@ -8,6 +8,8 @@ Use `wget` to download the source code for this lab. You can find the java file 
 
 https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab5/Transformer.tar.gz
 
+Untar the source project by running the command `tar -zxvf Transformer.tar.gz` in the directory where you downloaded it
+
 ----
 
 ## Things To Know ##
@@ -15,12 +17,11 @@ https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab5/Tr
 ##### Using the IntelliJ debugger #####
 
 1. Open IntelliJ on your lab computer by going to Applications > Programming > IntelliJ IDEA
-2. Untar the source project by running the command `tar -zxvf Transformer.tar.gz` in the directory where you downloaded it
-3. Import the project by using File > Open in IntelliJ
-4. Go to Run > Run. The program will spit out some output
-5. To add a breakpoint, select the line you wish to break on and go to Run > Toggle breakpoint
-6. To run in debug mode, go to Run > Debug
-7. The buttons to step in, out, over, etc are all above the debug pane. Hover over to see what each does.
+2. Import the project by using File > Open in IntelliJ and browsing to the folder where you untarred the source code
+3. Go to Run > Run. The program will spit out some output
+4. To add a breakpoint, select the line you wish to break on and go to Run > Toggle breakpoint
+5. To run in debug mode, go to Run > Debug
+6. The buttons to step in, out, over, etc are all above the debug pane. Hover over to see what each does.
 
 ![](https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab5/intellij.png)
 
@@ -58,7 +59,7 @@ There are currently two transformations implemented, but neither works correctly
 As we can see from the output above, the capitalized version isn't capitalized in the way we want.
 Let's figure out what's wrong.
 
-Use either the DrJava debugger or jdb to find and fix the bugs. If you want, you may use another IDE of your choice.
+Use either the IntelliJ debugger or jdb to find and fix the bugs. If you want, you may use another IDE of your choice.
 We recommend you mix it up to get familiar with various debugging methods.
 
 ### `capitalize()` ###
