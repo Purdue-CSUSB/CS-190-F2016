@@ -4,7 +4,11 @@ In this lab you'll go through a short program, identify the bugs and fix them.
 
 ### Download the source ###
 
-Use `wget` to download the source code for this lab. You can find the java file at
+Use `wget` to download the source code for this lab. 
+
+**You should make a new directory to store this, eg. `~/cs190lab5`**
+
+You can find the java file at
 
 https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab5/Transformer.tar.gz
 
