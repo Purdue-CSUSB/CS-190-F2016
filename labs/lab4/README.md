@@ -1,4 +1,4 @@
-# CS190 Lab 4 - Vim & Sublime #
+# CS190 Lab 4 (2015) - Vim & Sublime #
 
 The purpose of this lab is for you to learn the basics of Vim and Sublime Text. After you finish this lab, you will have a much better understanding of text editing for programming
 

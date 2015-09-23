@@ -1,4 +1,4 @@
-# CS190 Lab 1 - What Does the _____ Say? #
+# CS190 Lab 1 (2015) - What Does the _____ Say? #
 
 The purpose of this lab is to teach the basics of using the Terminal. After you finish this lab, you will be able to manipulate files within your CS account (or any UNIX machine) with ease.
 

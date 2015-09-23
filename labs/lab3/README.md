@@ -1,4 +1,4 @@
-# CS190 Lab 3 - My New Shell #
+# CS190 Lab 3 (2015) - My New Shell #
 
 The purpose of this lab is for you to learn and customize parts of your shell in order become more efficient. After you finish this lab, you will have a colorful terminal and be able to create short programs and run them from your home directory.
 
