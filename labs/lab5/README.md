@@ -14,6 +14,11 @@ https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab5/Tr
 
 Untar the source project by running the command `tar -zxvf Transformer.tar.gz` in the directory where you downloaded it
 
+CS 177 Students: We recommend using the Java code if you are familiar with Java.
+If you are not, [here](http://files.harrischristiansen.com/code/3J411X3r462K) is equivalent Python code created by a CS 190 TA Harris Christiansen.
+
+If you are using the Python file, you should use print statement debugging for capitalize and inspect control flow/state for reverse.
+
 ----
 
 ## Things To Know ##
