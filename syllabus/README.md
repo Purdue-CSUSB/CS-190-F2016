@@ -42,6 +42,7 @@ Labs are mandatory and they will be over topics taught in the previous week's le
 * [Lab 2](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab2) - More shell!
 * [Lab 3](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab3) - Your environment
 * [Lab 4](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab4) - Editors! Vim and Sublime Text
+* [Lab 5](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab5) - Debugers: IntelliJ and jdb
 
 ### Grading
 
