@@ -40,7 +40,7 @@ press the "Fork" button.
 just fork it into your personal Github.*
 
 Forking simply makes a copy of the repository in your own account so that you have permission to make changes. After
-forking, you should be in a new repository. The title of the repo at the top left should be "<your username>/snake"
+forking, you should be in a new repository. The title of the repo at the top left should be "*your username*/snake"
 instead of "leviathan747/snake"
 
 Now on the right side of the screen click the button to copy the clone URL to your clipboard. Make sure that you have selected
@@ -56,7 +56,7 @@ Finally, in your terminal:
     
     git clone <clone URL>
 
-where <clone URL> is the URL you just copied to your clipboard.
+where *clone URL* is the URL you just copied to your clipboard.
 
 ## Step 0: The project
 
@@ -139,7 +139,7 @@ Now that you're this far you decide that you want the food to be read again inst
 Run `git log`. Find the commit that you just committed (it should be the top one) and copy the commit hash.
 
 Run `git revert <commit_hash>`. This will open up an editor with a commit that says something like
-"Revert '<some message>' This commit reverts <some commit hash>".
+"Revert '*some message*' This commit reverts *some commit hash*".
 
 **Important Note!**
 
