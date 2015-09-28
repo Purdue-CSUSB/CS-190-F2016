@@ -33,6 +33,7 @@ don't already have one, sign up [here](https://github.com/join)
 
 Navigate to the project page that can be found at https://github.com/leviathan747/snake. In the top right-hand corner,
 press the "Fork" button.
+
 ![] (https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab6/fork.png)
 
 *Note: If you are part of a group on Github, it may ask you where you want to fork the repository. If it asks you this,
@@ -44,6 +45,7 @@ instead of "leviathan747/snake"
 
 Now on the right side of the screen click the button to copy the clone URL to your clipboard. Make sure that you have selected
 the HTTPS option. 
+
 ![] (https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab6/clone.png)
 
 *Note: There are other protocols to do this (some of them more convenient than HTTPS). If you'd like to learn how
