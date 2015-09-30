@@ -18,7 +18,7 @@ how to use git and it's features.
 Before you start working you have to do some setup of git. You need to set up your global gitconfig with
 your name and email. These will be attached to each commit to tie you to them.
 
-You should replace the `$USER` belowe with your real name, ie, "Levi Starrett"
+You should replace the `$USER` below with your real name, e.g., "Levi Starrett"
 
 ```bash
 git config --global user.name $USER
@@ -27,17 +27,17 @@ git config --global user.email $USER@purdue.edu
 
 ## Get the code
 
-We will now get the code for the lab from Github. Some of these commands will be unfamiliar to you, but we will
-explain more about using Github in the next lecture. Before you continue, you must have a Github account. If you
-don't already have one, sign up [here](https://github.com/join)
+We will now get the code for the lab from GitHub. Some of these commands will be unfamiliar to you, but we will
+explain more about using GitHub in the next lecture. Before you continue, you must have a GitHub account. If you
+don't already have one, sign up [here](https://github.com/join).
 
 Navigate to the project page that can be found at https://github.com/leviathan747/snake. In the top right-hand corner,
 press the "Fork" button.
 
 ![] (https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab6/fork.png)
 
-*Note: If you are part of a group on Github, it may ask you where you want to fork the repository. If it asks you this,
-just fork it into your personal Github.*
+*Note: If you are part of a group on GitHub, it may ask you where you want to fork the repository. If it asks you this,
+just fork it into your personal GitHub.*
 
 Forking simply makes a copy of the repository in your own account so that you have permission to make changes. After
 forking, you should be in a new repository. The title of the repo at the top left should be "*your username*/snake"
@@ -61,7 +61,7 @@ where *clone URL* is the URL you just copied to your clipboard.
 ## Step 0: The project
 
 The project we will be working with is actually an open source project that I wrote when I was a freshman and then revamped
-on Github last Summer/Fall. It's a web hosted snake game. If you've ever played snake on an old Nokia phone, this will be
+on GitHub last Summer/Fall. It's a web hosted snake game. If you've ever played snake on an old Nokia phone, this will be
 very familiar to you.
 
 To run the game, navigate into the `snake/play` directory and run the command:
@@ -134,7 +134,7 @@ __DON'T MOVE ON TO STEP 4 UNTIL YOU MAKE SURE YOU COMMIT YOUR CHANGES__ (check y
 
 ## Step 4: A step backwards
 
-Now that you're this far you decide that you want the food to be read again instead of green.
+Now that you're this far you decide that you want the food to be red again instead of green.
 
 Run `git log`. Find the commit that you just committed (it should be the top one) and copy the commit hash.
 
@@ -164,9 +164,12 @@ Show your TA your git log.
 ## Step 5: Extras!
 
 Here are some practical things you could do with git if you have extra time:
+
 * Work on your .gitconfig file. Some useful information here: http://git-scm.com/docs/git-config
 * Put your CS 180 project into a git repository!
-    > Please don't put your CS 180 projects into public repos on Github. Make sure it's in a private repo
+
+    > Please don't put your CS 180 projects into public repos on GitHub. Make sure it's in a private repo
+
 * If you want, write a real cheat module for snake and submit a pull request. I'd love to see what you guys can
 come up with!
 * Ask your TA a question about something you don't understand.
