@@ -168,7 +168,7 @@ Here are some practical things you could do with git if you have extra time:
 * Work on your .gitconfig file. Some useful information here: http://git-scm.com/docs/git-config
 * Put your CS 180 project into a git repository!
 
-    > Please don't put your CS 180 projects into public repos on GitHub. Make sure it's in a private repo
+    > Please don't put your CS 180 projects into public repos on GitHub. Make sure they're in a private repo.
 
 * If you want, write a real cheat module for snake and submit a pull request. I'd love to see what you guys can
 come up with!
