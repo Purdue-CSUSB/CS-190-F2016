@@ -69,7 +69,7 @@ To run the game, navigate into the `snake/play` directory and run the command:
     python -m SimpleHTTPServer 8000
 
 then go to your browser and type "http://localhost:8000" into the address bar. Familiarize yourself with how the game works.
-The project page can be found at http://levistarrett.com/snake.
+The project page can be found at http://leviathan.levistarrett.com/snake/.
 
 Press Ctrl-C to stop the python server.
 
