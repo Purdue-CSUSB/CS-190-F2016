@@ -33,6 +33,7 @@ It continues to be run by USB and is therefore entirely student-led.
 * [How to Get Your First Internship](https://docs.google.com/presentation/d/1QeXQ8tVz7lbBLpxYVAZxbgVX-Oy5xiJMOpKYzy48nLA/edit?usp=sharing)
 * [Lecture 4 -- Editors/IDEs + How to Career Fair](https://docs.google.com/presentation/d/1p5Bsy503w449pXEM6EkqNOje-rfHVAaIwB3gPkcwplc/edit?usp=sharing)
 * [Lecture 5 -- Debugging + RUS](https://docs.google.com/presentation/d/1ZmwflRnO82SvpS46e__MwVWAwdj3bTAc0pRssfDzwV4/edit?usp=sharing)
+* [Lecture 6 -- Git 1 + RUS](https://docs.google.com/presentation/d/1ENvWp0fkxrFVA7wh-CAu4JTsfK1UykyegG05XtVAqFI/edit?usp=sharing)
 
 ### Labs
 
@@ -43,7 +44,8 @@ Labs are mandatory and they will be over topics taught in the previous week's le
 * [Lab 3](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab3) - Your environment
 * [Lab 4](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab4) - Editors! Vim and Sublime Text
 * [Lab 5](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab5) - Debugers: IntelliJ and jdb
-* [Lab 6](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab6) - Git 1: local git
+* [Lab 6](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab6) - Git 1: Local git
+* [Lab 7](https://github.com/Purdue-CSUSB/CSToolsCourse/tree/master/labs/lab7) - Git 2: Working with remotes and merging
 
 ### Grading
 
