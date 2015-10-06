@@ -18,9 +18,11 @@ This command sets your default editor (just for today's lab) to be pluma for mer
 with any editor of your choice.
 
 ```bash
-export EDITOR="pluma"
+git config core.editor pluma
 ```
-> This only lasts as long as the terminal window you ran it within. As soon as you close the window, this setting is lost.
+
+> Without the `--global` flag this config is only for the repo you're
+> currently using
 
 ### Git Setup
 Required since git 2.0, it defines how the pushing mechanism works. This is the most intuitive option.
