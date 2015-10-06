@@ -18,14 +18,15 @@ This command sets your default editor (just for today's lab) to be pluma for mer
 with any editor of your choice.
 
 ```bash
-export EDITOR="pluma"
+$ export EDITOR="pluma"
 ```
 > This only lasts as long as the terminal window you ran it within. As soon as you close the window, this setting is lost.
 
 ### Git Setup
+
 Required since git 2.0, it defines how the pushing mechanism works. This is the most intuitive option.
 ```bash
-git config --global push.default simple
+$ git config --global push.default simple
 ```
 
 ### Creating, Committing, and Pushing
@@ -37,31 +38,31 @@ Agree on who is partner #1 and partner #2
 1. In your home directory, create a new folder named `cs190lab7_<your_username>`.  Ex. I would create a folder `cs190lab7_lpstarre`.
 
   ```bash
-  mkdir ~/cs190lab7_$USER
+  $ mkdir ~/cs190lab7_$USER
   ```
 
 2. You will then `cd` into the directory created above and `init`ialize a new git repository.
 
    ```bash
-   cd ~/cs190lab7_$USER
-   git init
+   $ cd ~/cs190lab7_$USER
+   $ git init
    ```
 
 3. Download this template file [`calc.py`](./calc.py) into the repository you just created
 
   ```bash
-  wget -O ~/cs190lab7_$USER/calc.py https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab7/calc.py
+  $ wget -O ~/cs190lab7_$USER/calc.py https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab7/calc.py
   ```
 
 4. `add` this file to the repo
 
   ```bash
-  git add <filename>
+  $ git add <filename>
   ```
 
 5. Commit this change
   ```bash
-  git commit -m 'initial commit'
+  $ git commit -m 'initial commit'
   ```
 
 5. Log in to github (upper right hand corner of this page)
@@ -78,8 +79,8 @@ Agree on who is partner #1 and partner #2
 8. Add this as a remote and push your commits
 
   ```bash
-  git remote add origin <url from github>
-  git push -u origin master
+  $ git remote add origin <url from github>
+  $ git push -u origin master
   ```
 
   > Notice that these are the exact commands from github!
@@ -96,9 +97,9 @@ Agree on who is partner #1 and partner #2
 Partner 2 needs a copy of this repo. If you remember from lecture, this is exactly what `clone` does.
 
   ```bash
-  cd ~
-  git clone <remote url>
-  cd <repo name>
+  $ cd ~
+  $ git clone <remote url>
+  $ cd <repo name>
   ```
 
 For the rest of this lab, pay attention to which section you're supposed to do.
@@ -145,13 +146,13 @@ b) Add a `elif` (else if) alongside the others that will check if the operator (
 
 > Remember `git add` and `git commit`. Be sure to check `git status` and `git log` afterward to make sure you successfully committed the changes.
 
-4\. Do a git pull to check for any changes in the remote repository on Github. Run `git pull`
+4\. Do a `git pull` to check for any changes in the remote repository on Github.
 
 * If you are the second partner to finish your implementation, you will get a merge conflict. Don't panic. Skip to the next section (merge conflict) and fix it together with your partner.
 
 * If you are the first partner to finish your implementation, move on to step 5.
 
-5\. Do a git push to publish your changes to Github so your partner can see them. Run `git push`
+5\. Do a `git push` to publish your changes to Github so your partner can see them.
 
   > When done with this part, wait for your partner to finish his/her implementation.
 
@@ -171,7 +172,7 @@ This is because you changed the same lines, but did different things (you each i
 
 4. Scan through the rest of the file to see if there are any other merge conflicts.
 
-4. When you are done editing, git `add` the file and commit.
+4. When you are done editing, `git add` the file and commit.
 
 5. Run `git push` to publish your changes to Github so your partner can pull them down.
 
@@ -195,4 +196,4 @@ you are using the HTTPS protocol to connect to Github as a remote. This has a fe
 The downside is that you don't want to have to enter your credentials every time you push and pull. There is another way. You
 can set up the remote to use SSH instead of HTTPS. SSH uses RSA encryption which you can set up to be passwordless using
 public keys. There is a great tutorial by Github on how to set up and use this method [here](https://help.github.com/articles/generating-ssh-keys/).
-Note that you will need to add an SSH key for every different machine you want to clone on (e.g. your personal machine and the CS servers)
+Note that you will need to add an SSH key for every different machine you want to clone on (e.g. your personal machine and the CS servers).
