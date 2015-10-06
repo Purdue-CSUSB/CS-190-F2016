@@ -1,6 +1,6 @@
-# CS 190 Lab 7 (2015) - Basics of Git Part 2: Remotes and Github
+# CS 190 Lab 7 (2015) - Basics of Git Part 2: Remotes and GitHub
 
-The purpose of this lab is to become comfortable and fluent with projects using Github.
+The purpose of this lab is to become comfortable and fluent with projects using GitHub.
 By the end of the lab, you should know how to create repos, add collaborators, clone, push, pull,
 and fix minor merge conflicts.
 
@@ -146,13 +146,13 @@ b) Add a `elif` (else if) alongside the others that will check if the operator (
 
 > Remember `git add` and `git commit`. Be sure to check `git status` and `git log` afterward to make sure you successfully committed the changes.
 
-4\. Do a `git pull` to check for any changes in the remote repository on Github.
+4\. Do a `git pull` to check for any changes in the remote repository on GitHub.
 
 * If you are the second partner to finish your implementation, you will get a merge conflict. Don't panic. Skip to the next section (merge conflict) and fix it together with your partner.
 
 * If you are the first partner to finish your implementation, move on to step 5.
 
-5\. Do a `git push` to publish your changes to Github so your partner can see them.
+5\. Do a `git push` to publish your changes to GitHub so your partner can see them.
 
   > When done with this part, wait for your partner to finish his/her implementation.
 
@@ -174,7 +174,7 @@ This is because you changed the same lines, but did different things (you each i
 
 4. When you are done editing, `git add` the file and commit.
 
-5. Run `git push` to publish your changes to Github so your partner can pull them down.
+5. Run `git push` to publish your changes to GitHub so your partner can pull them down.
 
 6. Your partner should now run `git pull` on his/her computer to see that you fixed the conflict.
 
@@ -187,13 +187,13 @@ Now both of you should be able to run `python calc.py` on your separate computer
 
 ### Bonus: Setting up SSH keys
 
-You may have noticed that every time you pull or push to Github, you have to enter your username and password. This is because
-you are using the HTTPS protocol to connect to Github as a remote. This has a few advantages:
+You may have noticed that every time you pull or push to GitHub, you have to enter your username and password. This is because
+you are using the HTTPS protocol to connect to GitHub as a remote. This has a few advantages:
 
 * It's easier and faster to set up
 * It will still work on strict firewalls and proxies such as those restricting all ports but port 80 and 443 (only HTTP and HTTPS traffic)
 
 The downside is that you don't want to have to enter your credentials every time you push and pull. There is another way. You
 can set up the remote to use SSH instead of HTTPS. SSH uses RSA encryption which you can set up to be passwordless using
-public keys. There is a great tutorial by Github on how to set up and use this method [here](https://help.github.com/articles/generating-ssh-keys/).
+public keys. There is a great tutorial by GitHub on how to set up and use this method [here](https://help.github.com/articles/generating-ssh-keys/).
 Note that you will need to add an SSH key for every different machine you want to clone on (e.g. your personal machine and the CS servers).
