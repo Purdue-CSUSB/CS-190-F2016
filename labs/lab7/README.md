@@ -117,11 +117,11 @@ This defines how the pushing mechanism works. <br>
 Partner 2 needs a copy of this repo. <br>
 If you remember from lecture, this is exactly what `clone` does.
 
-    ```bash
-    cd ~
-    git clone <remote URL>
-    cd <repo name>
-    ```
+```bash
+cd ~
+git clone <remote URL>
+cd <repo name>
+```
 
 For the rest of this lab, pay attention to which section you're supposed to do.
 
