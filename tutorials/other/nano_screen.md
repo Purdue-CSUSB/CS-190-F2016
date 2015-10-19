@@ -33,10 +33,12 @@ namespace HelloWorld
 }
 ```
 The process would be:
+
 1. Copy the code + switch to ssh session
 2. `$ nano Program.cs`
 3. Paste (if PuTTY, Right Click)
 4. Ctrl + O
+
 That's it. It's simple and quick. Yes, you could do this in vim. Nano is simply just another solution/approach. 
 # Practice and slick tie-in with screen
 There's a C file called time.c located [here](https://github.com/Changer098/CSToolsCourse/raw/master/tutorials/other/nano_screen_files/time.c). Grab it with wget and try to compile it with `$ gcc time.c -o time-std=c99`. You will find that the file will not compile because the 'time' header is missing. Fix 'time.c' by adding `#include <time.h>` at Line 4. And then recompile. If you run the file (`$./time`), you will notice that it displays the time, waits thirty seconds, and then repeats. Forever. The program can run indefinitely. You can test this idea with screen. Screen is a program that runs a program within a program, usually a shell. With screen you can: open a shell, leave, and then re-open it again as if it were never shut. The processes in that shell will continue running regardless if the user is viewing it or not.
