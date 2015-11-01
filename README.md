@@ -6,7 +6,7 @@ CS Tools Course (CS 190)
 The Purdue CS 190 Tools course was started in Fall of 2013 by the
 Undergraduate Student Board of Computer Science (USB) at Purdue.
 The course was a response to the need of new CS students to learn
-basic tools to be proffessional and efficient in their other CS
+basic tools to be professional and efficient in their other CS
 courses. The course focuses on practical skills required to be
 a good programmer, starting with a functional knowledge of UNIX
 shells, and ranging to editors, debuggers, and source control
