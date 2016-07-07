@@ -9,8 +9,8 @@
 6 silly lifecycle reveal.js@3.3.0~prestart: no script for prestart, continuing
 7 info lifecycle reveal.js@3.3.0~start: reveal.js@3.3.0
 8 verbose lifecycle reveal.js@3.3.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle reveal.js@3.3.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/jahankin/dev/190/reveal.js/node_modules/.bin:/usr/local/Cellar/node/6.2.2/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
-10 verbose lifecycle reveal.js@3.3.0~start: CWD: /Users/jahankin/dev/190/reveal.js
+9 verbose lifecycle reveal.js@3.3.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/jahankin/dev/190/CS-190-F2016/slides/html/lecture01/node_modules/.bin:/usr/local/Cellar/node/6.2.2/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+10 verbose lifecycle reveal.js@3.3.0~start: CWD: /Users/jahankin/dev/190/CS-190-F2016/slides/html/lecture01
 11 silly lifecycle reveal.js@3.3.0~start: Args: [ '-c', 'grunt serve' ]
 12 silly lifecycle reveal.js@3.3.0~start: Returned: code: 1  signal: null
 13 info lifecycle reveal.js@3.3.0~start: Failed to exec start script
@@ -25,7 +25,7 @@
 14 verbose stack     at maybeClose (internal/child_process.js:852:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
 15 verbose pkgid reveal.js@3.3.0
-16 verbose cwd /Users/jahankin/dev/190/reveal.js
+16 verbose cwd /Users/jahankin/dev/190/CS-190-F2016/slides/html/lecture01
 17 error Darwin 15.5.0
 18 error argv "/usr/local/Cellar/node/6.2.2/bin/node" "/usr/local/bin/npm" "start"
 19 error node v6.2.2

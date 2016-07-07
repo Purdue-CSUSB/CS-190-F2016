@@ -173,7 +173,9 @@ body {
 	box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
 }
 .reveal code {
-	font-family: monospace;
+	font-family: 'Roboto Mono', Menlo, Monaco, Consolas, monospace;
+	font-size: 1.6em;
+	line-height: 1.7em;
 }
 
 .reveal pre code {
