@@ -20,25 +20,22 @@ $backgroundColor: #fff;
 
 $mainColor: #222;
 $headingColor: #222;
-$subtitleColor: #767676;
 
-$mainFontSize: 24px;
-$mainFont: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-$headingFont: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+$mainFontSize: 38px;
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
-$headingTextTransform: none;
-$headingFontWeight: 100;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
 $linkColor: #2a76dd;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
-$heading1Size: 3.0em;
-$heading2Size: 2.0em;
-$heading3Size: 1.5em;
-$heading4Size: 1.3em;
-
-$headingLineHeight: 1.5em;
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
 
 section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
@@ -48,10 +45,5 @@ section.has-dark-background {
 
 
 // Theme template ------------------------------
-@import "../template/theme2";
+@import "../template/theme";
 // ---------------------------------------------
-
-span.monospace {
-	font-family: 'Roboto Mono', Menlo, Monaco, Consolas, monospace;
-	font-weight: 100;
-}

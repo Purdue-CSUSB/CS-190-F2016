@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>CS 190 - Lecture 1o</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/helvet.css">
@@ -105,41 +105,66 @@
 
 				<section>
 					<h1>CS 190: Lecture 1</h1>
-					<h2 class="subtitle">Using the <span style="font-family: 'Roboto Mono'"> &nbsp> terminal</span></h2>
+					<h2 class="subtitle">Using the <span style="font-family: 'Roboto Mono'"> &nbsp;~»terminal</span></h2>
 				</section>
 
 				<section>
-					<h2>Pretty Code</h2>
-					<pre><code class="hljs" data-trim contenteditable="false">
-function linkify( selector ) {
-  if( supports3DTransforms ) {
+					<pre><code class="hljs nohighlight" data-trim contenteditable="false">
+~ » echo "Why should I learn the terminal?"
+"Why should I learn the terminal?"
 
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-
-				<section>
-					<h2>Why use the terminal?</h2>
-					<pre><code class="hljs nohighlight" data-trim contenteditable>
 ~ » cat reasons.txt
 
 1. it's dope af
 2. it's rewarding af
 3. it's fun af
-					</code></pre>
+
+~ » _				</code></pre>
 				</section>
+
+				<section style="text-align: left;">
+					<h2>Why should I learn the terminal?</h2>
+					<ul>
+						<li> <span class="monospace">(keyboard > mouse) == true</span></li>
+						<li style="list-style-type:none">
+					         <ul>
+					           <li>File manipulation can be done in single commands</li>
+					           <li>Repeat and automate tedious tasks easily</li>
+					           <li>Terminal commands are universal to many operating systems</li>
+					        </ul>
+					     </li>
+						<li>It’s what the professionals use</li>
+						<li>A lot of times it’s all you’ll have access to</li>
+						<li>You're expected to know it</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Connecting to a Purdue Server</h2>
+				</section>
+
+				<section style="text-align: left">
+					<h2>Connecting with a UNIX-like OS</h2>
+					<ul>
+						<li>macOS, GNU/Linux (Ubuntu, Raspbian, etc.)<span style="font-size: 0.7em; color: #ccc">, BSD, Xinu, Darwin, HP-UX, Solaris, Xenix</span></li>
+						<li>Use <span class="monospace">ssh</span>, which is included by default on UNIX-like systems!</li>
+						<li>Open your terminal application to use <span class="monospace">ssh</span>.</li>
+					</ul>
+					<pre><code class="hljs nohighlight" data-trim contenteditable="false">
+~ » ssh &lt;username&gt;@&lt;machine&gt;.cs.purdue.edu
+
+~ » ssh hankinsj@data.cs.purdue.edu
+Last login: Mon Jul  4 10:46:19 2016 from rtp-gw1.cisco.com
+
+# hankinsj @ pod4-5 in ~ [17:17:17]
+$ _				</code></pre>
+				</section>
+
+				<section>
+					<h2>Demo</h2>
+					<script type="text/javascript" src="https://asciinema.org/a/14.js" id="asciicast-14" async></script>
+				</section>
+
 
 				<section>
 					<h2>Fragments</h2>
@@ -150,6 +175,14 @@ function linkify( selector ) {
 					<aside class="notes">
 						This slide has fragments which are also stepped through in the notes window.
 					</aside>
+				</section>
+
+				<section data-markdown>
+				    <script type="text/template">
+				        ## Page title
+
+				        A paragraph with some text and a [link](http://hakim.se).
+				    </script>
 				</section>
 
 

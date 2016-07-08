@@ -22,7 +22,7 @@ $mainColor: #222;
 $headingColor: #222;
 $subtitleColor: #767676;
 
-$mainFontSize: 24px;
+$mainFontSize: 32px;
 $mainFont: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $headingFont: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 $headingTextShadow: none;
@@ -33,10 +33,10 @@ $linkColor: #2a76dd;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
-$heading1Size: 3.0em;
-$heading2Size: 2.0em;
-$heading3Size: 1.5em;
-$heading4Size: 1.3em;
+$heading1Size: 2.4em;
+$heading2Size: 1.8em;
+$heading3Size: 1.7em;
+$heading4Size: 1.4em;
 
 $headingLineHeight: 1.5em;
 
@@ -53,5 +53,8 @@ section.has-dark-background {
 
 span.monospace {
 	font-family: 'Roboto Mono', Menlo, Monaco, Consolas, monospace;
-	font-weight: 100;
 }
+
+.reveal .slides > section,
+.reveal .slides > section > section {
+  text-align: left; }

@@ -24,7 +24,7 @@ body {
 
 .reveal .slides>section,
 .reveal .slides>section>section {
-	line-height: 1.9;
+	line-height: 1.3;
 	font-weight: inherit;
 }
 
@@ -59,10 +59,6 @@ body {
 
 .reveal h1 {
 	text-shadow: $heading1TextShadow;
-}
-
-.reveal h2.subtitle {
-	color: $subtitleColor;
 }
 
 
@@ -169,16 +165,16 @@ body {
 	line-height: 1.2em;
 
 	word-wrap: break-word;
+
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
 }
 .reveal code {
-	font-family: 'Roboto Mono', Menlo, Monaco, Consolas, monospace;
-	font-size: 1.6em;
-	line-height: 1.7em;
+	font-family: monospace;
 }
 
 .reveal pre code {
 	display: block;
-	padding: 25px;
+	padding: 5px;
 	overflow: auto;
 	max-height: 400px;
 	word-wrap: normal;
