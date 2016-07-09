@@ -58,3 +58,13 @@ span.monospace {
 .reveal .slides > section,
 .reveal .slides > section > section {
   text-align: left; }
+
+.reveal code {
+	font-size: inherit;
+}
+
+.reveal section img.center {
+    display: block;
+    margin: 0 auto;
+    max-height: 570px;
+}
