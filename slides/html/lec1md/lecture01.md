@@ -1,5 +1,5 @@
 # CS 190: Tools
-### August 23, 2016 <!-- .element: class="subtitle"-->
+### August 23, 2016 <!-- .element: class="subtitle" style="text-align: center"-->
 
 
 
@@ -72,13 +72,12 @@ C. somewhere in between
 
 
 
-# Questions?<!-- .element: style="text-align: center"-->
+# Questions?
 ### Ask anything! <!-- .element: class="subtitle" style="text-align: center"-->
 
 
 
 # Lecture 1: 
-<!-- .element: style="text-align: center"-->
 ### Using the `~»terminal`
 <!-- .element: class="subtitle" style="text-align: center"-->
 
@@ -100,7 +99,10 @@ C. somewhere in between
 
 
 
-# Why Learn the Terminal
+# Why Learn the Terminal?
+
+
+## Why Learn the Terminal?
 - `(keyboard > mouse) == true`
    - File manipulation can be done in single commands
    - Repeat and automate tedious tasks easily

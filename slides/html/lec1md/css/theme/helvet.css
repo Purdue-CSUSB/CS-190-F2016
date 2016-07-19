@@ -62,7 +62,8 @@ body {
   font-size: 1.4em; }
 
 .reveal h1 {
-  text-shadow: none; }
+  text-shadow: none;
+  text-align: center; }
 
 .reveal h3.subtitle {
   color: #767676; }
