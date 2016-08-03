@@ -1,4 +1,5 @@
-# Lecture Slides
+Lecture Slides
+==============
 
 These are the lecture slides shown in class. For leisurely reviewing, see the PDF versions of the slides. 
 
