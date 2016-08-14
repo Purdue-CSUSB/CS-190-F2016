@@ -3,7 +3,7 @@
 # clean slate
 rm -rf ~/cs190lab3
 
-wget https://raw.githubusercontent.com/PurdueCS190/lab3/master/dirinfo
+wget https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab3/dirinfo
 
 mkdir -p ~/bin
 mv dirinfo ~/bin
