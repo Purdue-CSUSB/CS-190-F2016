@@ -52,10 +52,6 @@ C. somewhere in between
 
 
 
-# History - USB
-
-
-
 # Syllabus
 
 
