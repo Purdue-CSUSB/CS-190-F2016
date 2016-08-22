@@ -390,7 +390,6 @@ D. `mv ~ ../*.txt`
 
 
 
-# Contact Us
-cs190-lecturers@cs.purdue.edu
-
-cs190-tas@cs.purdue.edu
+# Contact Us <!-- .element: style="text-align: center"-->
+* cs190-lecturers@cs.purdue.edu
+* cs190-tas@cs.purdue.edu
