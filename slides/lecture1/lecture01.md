@@ -23,19 +23,19 @@
 
 
 ## Jay Hankins
-
+jh@purdue.edu
 
 ## Matt Ess
-
+mess@purdue.edu
 
 ## Shane DeWael
-
+dewaels@purdue.edu
 
 ## Caitlin Kennedy
+kenned67@purdue.edu
 
-
-## Marty Kausus
-
+## Marty Kausas
+mkausas@purdue.edu
 
 
 # Quiz <!-- .element: style="text-align: center"-->
@@ -390,5 +390,6 @@ D. `mv ~ ../*.txt`
 
 
 
-# Life Pro Tips
-
+# Contact Us
+cs190-lecturers@cs.purdue.edu
+cs190-tas@cs.purdue.edu
