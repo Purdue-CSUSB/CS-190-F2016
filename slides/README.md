@@ -1,8 +1,7 @@
 Lecture Slides
 ==============
 
-These are the lecture slides shown in class. For leisurely reviewing, see the PDF versions of the slides. 
+* Lecture 01: https://purdue-csusb.github.io/CS-190-F2016/slides/lecture1/
 
-To bring down the full slide framework, see the HTML folder. This is mainly for the CS 190 team to edit the slides.
 
 
