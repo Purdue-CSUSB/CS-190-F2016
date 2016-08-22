@@ -34,7 +34,7 @@
 ## Caitlin Kennedy
 
 
-## Marty Von Kausus
+## Marty Kausus
 
 
 
