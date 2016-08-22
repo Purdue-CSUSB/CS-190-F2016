@@ -5,7 +5,7 @@
     + [Matt Ess](mailto:mess@purdue.edu)
     + [Jay Hankins](mailto:hankinsj@purdue.edu)
     + [Caitlin Kennedy](mailto:kenned67@purdue.edu)
-    + [Marty von Kausus](mailto:mkausus@purdue.edu)
+    + [Marty Kausas](mailto:mkausas@purdue.edu)
     + Email all the instructors at once: cs190-lecturers@purdue.edu
 * **Need help?**
     + For course questions, use [Piazza](https://piazza.com/class/ire7azr5kmw2b3)
