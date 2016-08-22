@@ -43,13 +43,7 @@ Several Computer Science courses expect students to use a number of tools, but f
 
 #### Lecture Notes/Cheat Sheets/Slides
 
-* [Lecture 1 -- Shell](https://docs.google.com/presentation/d/19uVm13ySbhUJ0ZTEIjv63eIJdOR9y1vjDNL84_vrBHw/edit?usp=sharing)
-* [Lecture 2 -- Shell 2](https://docs.google.com/presentation/d/17YtY16F6TJxB-v0ZOGJNsFa0PbDguDqgxx4GtWl0BiQ/edit?usp=sharing)
-* [Lecture 3 -- Shell and environment](https://docs.google.com/presentation/d/1qcq1Luzy8q447IUvQxCQw1AQhoTHhStsP-g-L5xdV0c/edit?usp=sharing)
-* [How to Get Your First Internship](https://docs.google.com/presentation/d/1QeXQ8tVz7lbBLpxYVAZxbgVX-Oy5xiJMOpKYzy48nLA/edit?usp=sharing)
-* [Lecture 4 -- Editors/IDEs + How to Career Fair](https://docs.google.com/presentation/d/1p5Bsy503w449pXEM6EkqNOje-rfHVAaIwB3gPkcwplc/edit?usp=sharing)
-* [Lecture 5 -- Debugging + RUS](https://docs.google.com/presentation/d/1ZmwflRnO82SvpS46e__MwVWAwdj3bTAc0pRssfDzwV4/edit?usp=sharing)
-* [Lecture 6 -- Git 1 + RUS](https://docs.google.com/presentation/d/1ENvWp0fkxrFVA7wh-CAu4JTsfK1UykyegG05XtVAqFI/edit?usp=sharing)
+* [Lecture 1 -- Shell](https://purdue-csusb.github.io/CS-190-F2016/slides/lecture1/#/)
 
 ## History
 This course has been taught each Fall (2013, 2014, and 2015) by USB students supervised by Prof. Dunsmore. It was created by [Tyler Hoffman](https://github.com/tyhoff) as part of the Purdue Undergrad Student Board (USB).
