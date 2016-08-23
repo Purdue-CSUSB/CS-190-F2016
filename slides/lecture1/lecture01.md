@@ -59,6 +59,7 @@ C. somewhere in between
 - Lecture every other Tuesday
 - Labs every other week, opposite of lectures
 - May not miss more than **3 combined** lectures and labs
+- https://drive.google.com/file/d/0B6T9Y1awPtf7LTNnOU0zYzVEekU/view?usp=sharing
 
 
 ## Grading
