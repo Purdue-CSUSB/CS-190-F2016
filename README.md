@@ -18,9 +18,9 @@ variety of useful topics can be found in the `tutorials/` and `reference/` direc
 
 ## Contact
 
-To contact the Fall 2016 lecturers, email cs190-lecturers@purdue.edu.
+To contact the Fall 2016 lecturers, email cs190-lecturers@cs.purdue.edu.
 
-To contact the Fall 2016 teaching assistants, email cs190-tas@purdue.edu.
+To contact the Fall 2016 teaching assistants, email cs190-tas@cs.purdue.edu.
 
 For general questions or comments about these course materials, please contact USB at usb@cs.purdue.edu.
 
