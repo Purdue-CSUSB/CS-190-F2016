@@ -16,7 +16,7 @@
 This course is designed to introduce new Computer Science students to various programming tools which will aid them in their Computer Science classes, personal projects, and software development job experiences.
 
 ## Schedule
-[https://drive.google.com/open?id=0B6T9Y1awPtf7LTNnOU0zYzVEekU]
+https://drive.google.com/open?id=0B6T9Y1awPtf7LTNnOU0zYzVEekU
 
 ## Course Topics
 
