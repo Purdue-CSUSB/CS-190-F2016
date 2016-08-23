@@ -9,7 +9,7 @@
     + Email all the instructors at once: cs190-lecturers@purdue.edu
 * **Need help?**
     + For course questions, use [Piazza](https://piazza.com/class/ire7azr5kmw2b3)
-    + For other issues, email the [TA Mailing List](mailto:cs190-tas@purdue.edu)
+    + For other issues, email the TAs: cs190-tas@purdue.edu
 
 ## Course Description
 
