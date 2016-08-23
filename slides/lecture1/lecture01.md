@@ -25,14 +25,18 @@
 ## Jay Hankins
 jh@purdue.edu
 
+
 ## Matt Ess
 mess@purdue.edu
+
 
 ## Shane DeWael
 dewaels@purdue.edu
 
+
 ## Caitlin Kennedy
 kenned67@purdue.edu
+
 
 ## Marty Kausas
 mkausas@purdue.edu
