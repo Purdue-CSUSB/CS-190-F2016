@@ -118,7 +118,7 @@ C. somewhere in between
 
 
 ## Connecting with a UNIX-like OS
-- macOS, GNU/Linux (Ubuntu, Raspbian, etc.)<span style="font-size: 0.5em; color: #ccc">, BSD, Xingu, Darwin, HP-UX, Solaris, Xenix</span>
+- macOS, GNU/Linux (Ubuntu, Raspbian, etc.)<span style="font-size: 0.5em; color: #ccc">, BSD, Xinu, Darwin, HP-UX, Solaris, Xenix</span>
 - Use `ssh`, which is included by default on UNIX-like systems!
 - Open your terminal to use `ssh`.
 
