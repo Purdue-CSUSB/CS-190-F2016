@@ -76,3 +76,6 @@ You get a point for every lecture or lab
 You miss a point for each lecture/lab you don't attend.
 
 For any questions on this, contact [Jay](mailto:hankinsj@purdue.edu).
+
+### Exams
+None.
