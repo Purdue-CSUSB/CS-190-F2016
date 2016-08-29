@@ -1,10 +1,12 @@
 # Bash on Windows
 
 ## What is it?
-In the Anniversary update of Windows 10, Microsoft released a developer feature called [Bash on Ubuntu on Windows](https://msdn.microsoft.com/en-us/commandline/wsl/about), which allows you to run a native Bash shell on Windows using the Windows Subsystem for Linux. This is helpful for developers, because it allows you to use command-line tools like `grep`, `ssh`, `apt-get`, etc., which has typically been difficult or impossible on Windows.
+In the Anniversary update of Windows 10, Microsoft released a developer feature called [Bash on Ubuntu on Windows](https://msdn.microsoft.com/en-us/commandline/wsl/about), which allows you to run a native UNIX Bash shell on Windows using the Windows Subsystem for Linux. This is helpful for developers, because it allows you to use Linux tools like `grep` and `ssh`, or use technologies such as [Ruby](https://www.ruby-lang.org/) and [Python](https://www.python.org/) which have typically been difficult on Windows, or has had to be done using software like [Cygwin](https://www.cygwin.com).
 
-## Installing Bash on Windows
-To install Bash on Windows, you must ensure you've installed the Windows 10 Anniversary Update, and are running it on a 64-bit build. After you've done that, you need to complete the following steps:
+Bash on Windows is native to to Windows 10 Anniversary Update and works by running a Ubuntu user-mode image. This means that programs designed for Linux will just work on Windows (using commands like `apt-get` to download and install). That being said, Bash on Windows acts as a toolset--it's not a full virtual machine. So you won't be able to perform things like hosting servers, which you can on Linux.
+
+## Installation
+To install Bash on Windows, you must ensure you've installed the Windows 10 Anniversary Update, and are running it on a 64-bit build. After you've done that, complete the following steps:
 
 **Enable Developer mode**
 
