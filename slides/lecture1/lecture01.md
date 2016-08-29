@@ -1,5 +1,5 @@
 # CS 190: Tools
-### August 23, 2016 <!-- .element: class="subtitle" style="text-align: center"-->
+### August 29, 2016 <!-- .element: class="subtitle" style="text-align: center"-->
 
 
 
@@ -40,6 +40,7 @@ kenned67@purdue.edu
 
 ## Marty Kausas
 mkausas@purdue.edu
+
 
 
 # Quiz <!-- .element: style="text-align: center"-->
@@ -114,40 +115,6 @@ C. somewhere in between
 
 
 
-# Connecting to a Purdue Server
-
-
-## Connecting with a UNIX-like OS
-- macOS, GNU/Linux (Ubuntu, Raspbian, etc.)<span style="font-size: 0.5em; color: #ccc">, BSD, Xinu, Darwin, HP-UX, Solaris, Xenix</span>
-- Use `ssh`, which is included by default on UNIX-like systems!
-- Open your terminal to use `ssh`.
-
-
-```
-~ » ssh <username>@<machine>.cs.purdue.edu
-
-~ » ssh hankinsj@data.cs.purdue.edu
-Last login: Mon Jul  4 10:46:19 2016 from rtp-gw1.cisco.com
-
-# hankinsj @ data in ~ [17:17:17]
-$ _
-```
-<!-- .element: class="hljs nohighlight"-->
-
-
-## Connecting with Windows
-- Windows doesn't have `ssh` by default ☹️
-- Instead, you need an SSH client, like [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/).
-
-
-![PuTTY screenshot](https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/tutorials/shells/putty_screenshots/putty.PNG)<!-- .element: class="center"-->
-
-
-## Demo
-<span style="font-size: 0.6em;">👌👀👌👀👌👀👌👀👌👀 good shit go౦ԁ sTUff👌 thats ✔ some stuff right👌👌th 👌 ere👌👌👌 right✔there ✔✔if i do ƽaү so my selｆ 💯 i say so 💯 thats what im talking about right there right there (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ💯 👌👌 👌НO0ОଠＯOOＯOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒ👌 👌👌 👌 💯 👌 👀 👀 👀 👌👌Good stuff</span><!-- .element: class="fragment" data-fragment-index="1" -->
-
-
-
 # What is the terminal, exactly?
 
 
@@ -182,9 +149,15 @@ $ _
 - UNIX
     - Operating system developed by AT&T at Bell Labs in the 1970s
     - Inspired many similar OSes like Linux, Solaris, BSD, Darwin, etc.
-- POSIX
-    - Set of standards to unify operating systems
-    - Specified by Institute of Electrical and Electronics Engineers (IEEE)
+
+
+
+# Structure of Unix Command 
+
+```
+~ » command -options arguments
+
+```
 
 
 
@@ -251,6 +224,8 @@ $ _
 /homes/hankinsj/cs251
 ```
 <!-- .element: class="hljs nohighlight"-->
+
+
 
 
 # Manipulating Files and Folders
@@ -363,6 +338,40 @@ Make sure to emphasize the -r is for 'recursively'
   - i.e., **.txt** for plain text or **.jpeg** for images
 - File are not guaranteed to match their extension
 - Files do not have to have extensions
+
+
+
+# Connecting to a Purdue Server
+
+
+## Connecting with a UNIX-like OS
+- macOS, GNU/Linux (Ubuntu, Raspbian, etc.)<span style="font-size: 0.5em; color: #ccc">, BSD, Xinu, Darwin, HP-UX, Solaris, Xenix</span>
+- Use `ssh`, which is included by default on UNIX-like systems!
+- Open your terminal to use `ssh`.
+
+
+```
+~ » ssh <username>@<machine>.cs.purdue.edu
+
+~ » ssh hankinsj@data.cs.purdue.edu
+Last login: Mon Jul  4 10:46:19 2016 from rtp-gw1.cisco.com
+
+# hankinsj @ data in ~ [17:17:17]
+$ _
+```
+<!-- .element: class="hljs nohighlight"-->
+
+
+## Connecting with Windows
+- Windows doesn't have `ssh` by default ☹️
+- Instead, you need an SSH client, like [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/).
+
+
+![PuTTY screenshot](https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/tutorials/shells/putty_screenshots/putty.PNG)<!-- .element: class="center"-->
+
+
+## Demo
+<span style="font-size: 0.6em;">👌👀👌👀👌👀👌👀👌👀 good shit go౦ԁ sTUff👌 thats ✔ some stuff right👌👌th 👌 ere👌👌👌 right✔there ✔✔if i do ƽaү so my selｆ 💯 i say so 💯 thats what im talking about right there right there (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ💯 👌👌 👌НO0ОଠＯOOＯOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒ👌 👌👌 👌 💯 👌 👀 👀 👀 👌👌Good stuff</span><!-- .element: class="fragment" data-fragment-index="1" -->
 
 
 
