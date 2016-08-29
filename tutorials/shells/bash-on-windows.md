@@ -9,19 +9,19 @@ To install Bash on Windows, you must ensure you've installed the Windows 10 Anni
 **Enable Developer mode**
 Open the Settings app, then go to `Update and Security`->`For developers`. Select the `Developer mode` radio button.
 
-![Developer Mode](link-to-image)
+![Developer Mode](https://github.com/shanedewael/CS-190-F2016/blob/master/tutorials/shells/bashonwindows_screenshots/bash-on-windows-devmode.png)
 
 **Turn on Windows Subsystem for Linux**
 Next, go to `Control Panel`->`Programs`->`Turn Windows Features On or Off`. From here, you can enable it by selecting the `Windows Subsystem for Linux (Beta)` checkbox, and then clicking OK.
 
-![Windows Features](link-to-image)
+![Windows Features](https://github.com/shanedewael/CS-190-F2016/blob/master/tutorials/shells/bashonwindows_screenshots/bash-on-windows-features.png)
 
 You should be prompted to restart your computer at this point, which will complete the installation.
 
 ## Running Bash on Windows
 After your computer restarts, you can search "bash" using the start menu, and hitting enter. After you accept the terms of service, you'll be able to run Bash on Ubuntu on Windows.
 
-![Bash on Ubuntu on Windows](link-to-image)
+![Bash on Ubuntu on Windows](https://github.com/shanedewael/CS-190-F2016/blob/master/tutorials/shells/bashonwindows_screenshots/bash-on-windows-bashshell.png)
 
 ## What's next?
 Take a look at [the slides for week 1](http://purdue-csusb.github.io/CS-190-F2016/slides/lecture1/#/), which cover the basics of using a Bash shell.
