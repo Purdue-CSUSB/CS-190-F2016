@@ -7,11 +7,13 @@ In the Anniversary update of Windows 10, Microsoft released a developer feature 
 To install Bash on Windows, you must ensure you've installed the Windows 10 Anniversary Update, and are running it on a 64-bit build. After you've done that, you need to complete the following steps:
 
 **Enable Developer mode**
+
 Open the Settings app, then go to `Update and Security`->`For developers`. Select the `Developer mode` radio button.
 
 ![Developer Mode](https://github.com/shanedewael/CS-190-F2016/blob/master/tutorials/shells/bashonwindows_screenshots/bash-on-windows-devmode.png)
 
 **Turn on Windows Subsystem for Linux**
+
 Next, go to `Control Panel`->`Programs`->`Turn Windows Features On or Off`. From here, you can enable it by selecting the `Windows Subsystem for Linux (Beta)` checkbox, and then clicking OK.
 
 ![Windows Features](https://github.com/shanedewael/CS-190-F2016/blob/master/tutorials/shells/bashonwindows_screenshots/bash-on-windows-features.png)
