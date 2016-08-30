@@ -1,0 +1,70 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #222;
+$headingColor: #222;
+$subtitleColor: #767676;
+
+$mainFontSize: 32px;
+$mainFont: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$headingFont: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: none;
+$headingFontWeight: 100;
+$linkColor: #2a76dd;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.4em;
+$heading2Size: 1.8em;
+$heading3Size: 1.7em;
+$heading4Size: 1.4em;
+
+$headingLineHeight: 1.5em;
+
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+}
+
+
+// Theme template ------------------------------
+@import "../template/theme2";
+// ---------------------------------------------
+
+span.monospace {
+	font-family: 'Roboto Mono', Menlo, Monaco, Consolas, monospace;
+}
+
+.reveal .slides > section,
+.reveal .slides > section > section {
+  text-align: left; }
+
+.reveal code {
+	font-size: inherit;
+}
+
+.reveal section img.center {
+    display: block;
+    margin: 0 auto;
+    max-height: 570px;
+}
