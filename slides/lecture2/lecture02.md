@@ -32,6 +32,7 @@ Reminder...
 | `cd -` | go back (like in your browser)         |
 | `~`    | home directory (you live here)         |
 | `/`    | root directory (everything lives here) |
+<<<<<<< HEAD
 
 
 
@@ -68,3 +69,4 @@ file1 file2 file3
 ~ » echo cp file1
 ```
 <!-- .element: class="hljs nohighlight"-->
+
