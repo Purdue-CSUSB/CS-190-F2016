@@ -39,9 +39,7 @@ You should apply to BoilerMake, Purdue's hackathon.
 
 1. Go to [BoilerMake.org](http://boilermake.org)
 
-2. Apply for BoilerMake
-
-3. Invite teammates on your application
+2. Subscribe to email updates.
 
 ## The Lab 
 
