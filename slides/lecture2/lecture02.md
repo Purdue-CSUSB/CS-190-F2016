@@ -4,7 +4,7 @@
 
 
 # Welcome back!
-![more terminal](kanye.png) <!-- .element: class="center" style="width: 50%"-->
+![more terminal](assets/kanye.png) <!-- .element: class="center" style="width: 50%"-->
 
 
 # First, some review <!-- .element: style="text-align: center"-->
