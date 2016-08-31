@@ -19,7 +19,7 @@ B. The home directory and "back" one directory.
 
 C. The current directory and the parent directory.
 
-D. The system root directory and the meme folder.
+D. The system root directory and the configuration folder.
 
 
 Reminder...
@@ -32,7 +32,6 @@ Reminder...
 | `cd -` | go back (like in your browser)         |
 | `~`    | home directory (you live here)         |
 | `/`    | root directory (everything lives here) |
-<<<<<<< HEAD
 
 
 
@@ -67,6 +66,54 @@ file1 file2 file3
 
 # becomes...
 ~ » echo cp file1
+```
+<!-- .element: class="hljs nohighlight"-->
+
+
+
+# Input and Output
+
+
+- The terminal functions on a system of input and output.
+- Users input commands, terminals output results (or take some kind of action).
+
+
+## Standard Input
+- The standard input stream, or "`stdin`," is the default input source for the terminal.
+- Commands you type at the shell prompt feed into `stdin`.
+- Most programming languages offer constructs to interface with `stdin`, such as Scanner in Java.
+
+
+## Standard Output
+- The standard output stream, or "`stdout`, " is the default place for the terminal to display output.
+- Almost everything you see on your terminal is from `stdout`.
+- Printing functions in programming languages rely on `stdout`, like Java's System.out family of methods (`println`, `printf`).
+
+
+
+## Redirection
+```
+# use < to change the source for stdin
+~ » java Statistics < numeric_data
+
+# and use > to change the destination for stdout
+~ » ls > list_of_files
+
+# or use both at once
+~ » java Tumblr < sadness > memes
+```
+<!-- .element: class="hljs nohighlight"-->
+
+
+## Pipes
+```
+# pipes let you feed the output of one command to the input of another
+
+# see if a specific file is in a specific folder
+~ » ls folder_with_lots_of_files | grep a_very_special_file
+
+# get the number of lines of code for your lab
+~ » cat Code.java | wc -l
 ```
 <!-- .element: class="hljs nohighlight"-->
 
