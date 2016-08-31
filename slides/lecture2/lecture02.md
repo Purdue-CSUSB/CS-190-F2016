@@ -22,7 +22,7 @@ C. The current directory and the parent directory.
 D. The system root directory and the meme folder.
 
 
-- Actually...
+Actually...
 
 | symbol | what it does                           |
 | ------ | -------------------------------------- |
