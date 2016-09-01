@@ -130,7 +130,7 @@ For part two we will add a couple of settings to your .vimrc that maybe useful.
     ```
 4. Now open the file again in vim and you should see the current cursor position in the lower right of the window.
 
-![It should look similar to this](https://github.com/Purdue-CSUSB/CS-190-F2016/raw/master/labs/lab4/vimrc1.png)
+![It should look similar to this](https://github.com/Purdue-CSUSB/CS-190-F2016/raw/master/labs/lab4/vimrc2.png)
 
 ## Part 2 - Sublime
 
