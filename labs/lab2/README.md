@@ -2,7 +2,7 @@
 
 The purpose of this lab is to teach some more advanced shell commands. After you finish this lab, you will be able to search for files and text, and be able to further learn any command desired.
 
-Before starting the lab, **OPEN THE [REFERENCE SHEET](https://github.com/Purdue-CSUSB/CSToolsCourse/blob/master/labs/lab2/lecture02-more-terminal.md)**
+Before starting the lab, **OPEN THE [REFERENCE SHEET](https://github.com/Purdue-CSUSB/CS-190-F2016/blob/master/labs/lab2/lecture02-more-terminal.md)**
 
 ## Setup ##
 
@@ -36,7 +36,7 @@ Depending on your working environment, perform the appropriate action:
 ----
 
 ### The Magic Command ###
-	cd; curl -sL https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab2/lab2init | bash
+	cd; curl -sL https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab2/lab2init | bash
 
 Copy the command above and run it within the terminal. It will create a folder named `cs190lab2` located within your home directory.
 
@@ -55,7 +55,7 @@ This section is just like the last lab. You are given tasks that each have:
 
     Working Directory:  your home directory
 
-    File URL:           https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab2/answers.txt
+    File URL:           https://github.com/Purdue-CSUSB/CS-190-F2016/raw/master/labs/lab2/answers.txt
 
     Desired Action:     download the answers.txt file from the URL above using the terminal
                         (may not use browser!)

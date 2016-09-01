@@ -10,7 +10,7 @@ Use `wget` to download the source code for this lab.
 
 You can find the java file at
 
-https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab5/Transformer.tar.gz
+https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab5/Transformer.tar.gz
 
 Untar the source project by running the command `tar -zxvf Transformer.tar.gz` in the directory where you downloaded it
 
@@ -32,7 +32,7 @@ If you are using the Python file, you should use print statement debugging for c
 5. To run in debug mode, go to Run > Debug
 6. The buttons to step in, out, over, etc are all above the debug pane. Hover over to see what each does.
 
-![](https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab5/intellij.png)
+![](https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab5/intellij.png)
 
 ##### Using the jdb debugger #####
 

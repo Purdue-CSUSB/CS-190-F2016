@@ -7,7 +7,7 @@ minor merge conflicts, create and clone repositories (repos), and push and
 pull to repos.
 
 **For quick reference on the git commands we covered, see the cheat sheet
-[here](https://github.com/Purdue-CSUSB/CSToolsCourse/blob/master/labs/lab7/lecture07-git.md).**
+[here](https://github.com/Purdue-CSUSB/CS-190-F2016/blob/master/labs/lab7/lecture07-git.md).**
 
 ## The Lab
 
@@ -65,7 +65,7 @@ This defines how the pushing mechanism works. <br>
    just created.
 
     ```bash
-    wget -P ~/cs190lab7_$USER https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab7/calc.py
+    wget -P ~/cs190lab7_$USER https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab7/calc.py
     ```
 
 4. `git add` this file to the repo.
@@ -84,14 +84,14 @@ This defines how the pushing mechanism works. <br>
 
 6. Create a new repository.
 
-    ![new repo button](https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab7/res/create.png)
+    ![new repo button](https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab7/res/create.png)
 
 7. Enter in a repository name. Do **not** check the box that says initialize
    with README.
 
 8. Copy the HTTP URL from GitHub.
 
-    ![click the copy button](https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab7/res/copy.png)
+    ![click the copy button](https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab7/res/copy.png)
 
 8. Add this as a remote and push your commits
 
@@ -106,11 +106,11 @@ This defines how the pushing mechanism works. <br>
 
 8. Go to the repository settings.
 
-    ![settings location](https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab7/res/settings.png)
+    ![settings location](https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab7/res/settings.png)
 
 9. Add your partner as a collaborator (use their GitHub handle).
 
-    ![add collaborator](https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab7/res/collab.png)
+    ![add collaborator](https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab7/res/collab.png)
 
 ### To do together on Partner #2's computer
 
