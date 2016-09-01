@@ -27,7 +27,7 @@ The syllabus for this course can be found here: [Syllabus](https://github.com/Pu
 
 Piazza is where we'll post all course announcements (deadlines, extensions, etc) and have general discussions.
 
-1. Go to the [CSv190 Piazza](https://piazza.com/purdue/fall2016/cs190/home).
+1. Go to the [CS 190 Piazza](https://piazza.com/purdue/fall2016/cs190/home).
 
 2. Create an account if you haven't already.
 

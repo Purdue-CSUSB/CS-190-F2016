@@ -2,13 +2,13 @@
 
 The purpose of this lab is for you to learn and customize parts of your shell in order become more efficient. After you finish this lab, you will have a colorful terminal and be able to create short programs and run them from your home directory.
 
-Before starting the lab, **OPEN THE [REFERENCE SHEET](https://github.com/Purdue-CSUSB/CSToolsCourse/blob/master/labs/lab3/lecture03-your-environment.md)**
+Before starting the lab, **OPEN THE [REFERENCE SHEET](https://github.com/Purdue-CSUSB/CS-190-F2016/blob/master/labs/lab3/lecture03-your-environment.md)**
 
 ### The Magic Command ###
 
 **ONLY RUN THIS ONCE. IF YOU ALREADY HAVE A ~/bin DIRECTORY RENAME IT TO AVOID LOOSING YOUR PROGRAMS**
 
-	cd; wget -NP ~/bin https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab3/dirinfo
+	cd; wget -NP ~/bin https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab3/dirinfo
 
 Copy the command above and run it within the terminal. It will **not** create a folder named `cs190lab3` located within your home directory, but rather a `bin` folder with a file called `dirinfo` inside.
 
@@ -144,7 +144,7 @@ To do so, run
 
 *If you see a weird screen like this*
 
-![](https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab3/newuser.png)
+![](https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab3/newuser.png)
 
 *just press `0`*
 #### Pick a Color Scheme ####

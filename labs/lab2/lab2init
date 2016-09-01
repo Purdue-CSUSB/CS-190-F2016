@@ -3,7 +3,7 @@
 # clean slate
 rm -rf ~/cs190lab2
 
-wget -P ~ https://github.com/Purdue-CSUSB/CSToolsCourse/raw/master/labs/lab2/cs190lab2.tgz
+wget -P ~ https://github.com/Purdue-CSUSB/CS-190-F2016/raw/master/labs/lab2/cs190lab2.tgz
 tar -xzf ~/cs190lab2.tgz -C ~
 rm -rf ~/cs190lab2.tgz
 

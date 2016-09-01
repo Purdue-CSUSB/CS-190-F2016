@@ -6,7 +6,7 @@ code, and collaborating, but it is also a necessary skill in the work place.
 
 You will never have a computer science job that doesn't require the use of a version control system.
 
-__For quick reference on the git commands we covered, see the cheat sheet [here] (https://github.com/Purdue-CSUSB/CSToolsCourse/blob/master/labs/lab6/lecture06-git.md)__
+__For quick reference on the git commands we covered, see the cheat sheet [here] (https://github.com/Purdue-CSUSB/CS-190-F2016/blob/master/labs/lab6/lecture06-git.md)__
 
 ## The Lab
 
@@ -34,7 +34,7 @@ don't already have one, sign up [here](https://github.com/join).
 Navigate to the project page that can be found at https://github.com/leviathan747/snake. In the top right-hand corner,
 press the "Fork" button.
 
-![] (https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab6/fork.png)
+![] (https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab6/fork.png)
 
 *Note: If you are part of a group on GitHub, it may ask you where you want to fork the repository. If it asks you this,
 just fork it into your personal GitHub.*
@@ -46,7 +46,7 @@ instead of "leviathan747/snake"
 Now on the right side of the screen click the button to copy the clone URL to your clipboard. Make sure that you have selected
 the HTTPS option. 
 
-![] (https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab6/clone.png)
+![] (https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab6/clone.png)
 
 *Note: There are other protocols to do this (some of them more convenient than HTTPS). If you'd like to learn how
 to set up SSH keys to use SSH to clone you can learn more [here](https://help.github.com/articles/generating-ssh-keys/) (please
@@ -92,7 +92,7 @@ When I wrote snake, I designed it with the ability to add cheat modules. Let's a
 just be a behavior to make the snake zig zag.
 
 Use `wget` to download the file `zigzag.js` into the `snake/play/js/cheat/` directory. `zigzag.js` can be found at 
-https://raw.githubusercontent.com/Purdue-CSUSB/CSToolsCourse/master/labs/lab6/zigzag.js
+https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab6/zigzag.js
 
 Open up `index.json` in the `snake/play/js/cheat/` directory and add an entry for your new cheat module. You will need to provide
 a name and description for your module. The name should be "zigzag.js" (matches the name of the JavaScript file).
