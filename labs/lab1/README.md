@@ -2,21 +2,6 @@
 
 The purpose of this lab is to teach the basics of using the terminal. After you finish this lab, you will be able to manipulate files on any UNIX-like machine (including your Purdue CS account)!
 
-## Introduction
-
-### Accounts you'll need
-
-There's a few accounts you'll want to sign up for if you haven't already. You don't need any of these for this lab, but we will be using them later in the course.
-
-* Github is awesome, so sign up when you get the chance. If you use your purdue email, you'll get some extra stuff for free. You can click [here](https://education.github.com) for more information.
-* Sign up for the [CS 190 Piazza](https://piazza.com/purdue/fall2016/cs190/home) if you haven't already.
-* While you're at it, you should apply to Purdue's hackathon [here](http://boilermake.org). 
-
-###Some useful links
-* The syllabus for this course can be found [here](https://github.com/Purdue-CSUSB/CS-190-F2016/tree/master/syllabus) if you need it.
-* The course calener can be found [here](https://drive.google.com/file/d/0B6T9Y1awPtf7LTNnOU0zYzVEekU/view).
-
-
 ## The Lab 
 
 Before starting the lab, you might want to check out the [Lecture 1 Cheat Sheet](https://github.com/Purdue-CSUSB/CS-190-F2016/blob/master/labs/lab1/lecture01-basic-terminal-commands.md) to review all the common commands. 
@@ -173,7 +158,25 @@ Solve all 6 of these tasks, and record your answers in the `answers.txt` file.
 
 
 #### End of Lab 
-That is the last of the tasks. You can raise your hand and get checked off, but please do the `Extra Fun` sections before you leave. If you don't finish before the end of the lab, email the `answers.txt` file to your lab TAs.
+That was the last task! Before you leave...
+
+* Make sure you check with a TA so we can give you credit!
+* If you didn't finish before the end of the lab, email the `answers.txt` file to your TA. 
+* Complete the `homework` section below sometime before your next lab. 
+* If you want to learn more, take a look at the `Extra Fun` section below. 
+
+
+##Homework
+
+There's a few accounts you'll want to sign up for if you haven't already. We will be using them later in the course.
+
+* Github is awesome, so sign up when you get the chance. If you use your Purdue email, you'll get some extra stuff for free. You can click [here](https://education.github.com) for more information.
+* Sign up for the [CS 190 Piazza](https://piazza.com/purdue/fall2016/cs190/home) if you haven't already. This will help you stay informed about what's going on in the class. 
+* While you're at it, you should apply to Purdue's hackathon [here](http://boilermake.org).
+
+###Some useful links
+* The syllabus for this course can be found [here](https://github.com/Purdue-CSUSB/CS-190-F2016/tree/master/syllabus) if you need it.
+* The course calendar can be found [here](https://drive.google.com/file/d/0B6T9Y1awPtf7LTNnOU0zYzVEekU/view).
 
 
 ## Extra Fun 
@@ -192,5 +195,6 @@ Now look at the entire folder structure of your `~/cs190lab1` folder by running 
 View the [source](https://github.com/Purdue-CSUSB/CS-190-F2016/blob/master/labs/lab1/lab1init) of the Magic script. You know almost everything that is going on in this script!
 
 ----
+
 
 *If you find any bugs within the code or misspellings in the write-up, please email us at cs190-tas@cs.purdue.edu!*
