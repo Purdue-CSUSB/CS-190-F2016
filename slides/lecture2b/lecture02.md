@@ -329,24 +329,3 @@ E. They are all allowed <!-- .element: style="color: grey;"-->
 ![Spongebob](assets/spongebob.jpg) <!-- .element: class="center" style="border: none; box-shadow:none; width:50%;"--> 
 
 
-## Upcoming Career Fairs
-* AITP Computing Career Fair:
-    - **Thursday, September 8, 9:00 am - 3:00 pm**
-* CS Career Fair: 
-    - **Monday, September 12, 5:00 pm - 8:30 pm**
-
-
-![Cisco logo](assets/cisco.png) <!-- .element: style="border: none; box-shadow:none; width:15%;"--> 
-## Internships at Cisco
-* Jay Hankins is Purdue's Cisco Campus Ambassador
-    - And a two-time security intern in RTP, North Carolina
-* Kiley Dove is Purdue's Cisco Recruiter (<kidove@cisco.com>)
-* https://cisco.com/go/university
-
-
-## Cisco Events
-* At both career fairs
-* Networking Night (Skip the career fair lines)
-    - Wednesday, September 7, 6:00 pm - 8:00 pm
-    - Lynn Hall (Veterinary Building)
-
