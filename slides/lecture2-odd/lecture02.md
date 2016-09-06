@@ -294,7 +294,7 @@ ls -al | sort > output.txt
 
 
 ## Quiz 2.2
-What command am you ***not allowed*** to run 
+What command are you ***not allowed*** to run 
 
 A. `find ~/cs180/ -name Shape.java` 
 
