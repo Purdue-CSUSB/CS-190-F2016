@@ -345,6 +345,11 @@ E. They are all allowed <!-- .element: style="color: grey;"-->
 
 
 ## Cisco Events
+* [Positions at Cisco](https://drive.google.com/file/d/0B6T9Y1awPtf7TWkxRHJhMXJSMlBDWnkzTTEwMU5ubDctNkNV/view?usp=sharing)
+
+![Cisco Poster](assets/networking_night_info.png)<!-- .element: class="center" style="border: none; box-shadow:none; width:75%;"--> 
+
+
 * At both career fairs
 * Networking Night (Skip the career fair lines)
     - Wednesday, September 7, 6:00 pm - 8:00 pm
