@@ -308,7 +308,7 @@ E. They are all allowed
 
 
 ## Quiz 2.2 Answer
-What command am you ***not allowed*** to run 
+What command are you ***not allowed*** to run 
 
 A. `find ~/cs180/ -name Shape.java`<!-- .element: style="color: grey;"-->
 
