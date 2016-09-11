@@ -26,7 +26,7 @@ Depending on your working environment, perform the appropriate action:
 5. Check 'Enable X11 Forwarding'
 6. Connect like normal to `data.cs.purdue.edu` within PuTTy.
 
-#### OSX Instructions ####
+#### OS X Instructions ####
 
 1. Install [XQuartz](http://xquartz.macosforge.org/landing/)
 2. Log out and log back in
