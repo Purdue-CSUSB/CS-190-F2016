@@ -1,4 +1,4 @@
-# CS190 Lab 2 (2015) - The Doctor Exposed #
+# CS 190 Lab 2 (2016) - The Doctor Exposed #
 
 The purpose of this lab is to teach some more advanced shell commands. After you finish this lab, you will be able to search for files and text, and be able to further learn any command desired.
 
