@@ -294,7 +294,11 @@ ls -al | sort > output.txt
 
 
 ## Quiz 2.2
+<<<<<<< HEAD
 What command am you ***not allowed*** to run 
+=======
+What command are you ***not allowed*** to run 
+>>>>>>> gh-pages
 
 A. `find ~/cs180/ -name Shape.java` 
 
@@ -308,7 +312,11 @@ E. They are all allowed
 
 
 ## Quiz 2.2 Answer
+<<<<<<< HEAD
 What command am you ***not allowed*** to run 
+=======
+What command are you ***not allowed*** to run 
+>>>>>>> gh-pages
 
 A. `find ~/cs180/ -name Shape.java`<!-- .element: style="color: grey;"-->
 
@@ -345,6 +353,14 @@ E. They are all allowed <!-- .element: style="color: grey;"-->
 
 
 ## Cisco Events
+<<<<<<< HEAD
+=======
+* [Positions at Cisco](https://drive.google.com/file/d/0B6T9Y1awPtf7TWkxRHJhMXJSMlBDWnkzTTEwMU5ubDctNkNV/view?usp=sharing)
+
+![Cisco Poster](assets/networking_night_info.png)<!-- .element: class="center" style="border: none; box-shadow:none; width:75%;"--> 
+
+
+>>>>>>> gh-pages
 * At both career fairs
 * Networking Night (Skip the career fair lines)
     - Wednesday, September 7, 6:00 pm - 8:00 pm
