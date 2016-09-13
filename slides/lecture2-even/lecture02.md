@@ -1,5 +1,5 @@
 # CS 190: Tools
-### September 6, 2016 <!-- .element: class="subtitle" style="text-align: center"-->
+### September 13, 2016 <!-- .element: class="subtitle" style="text-align: center"-->
 
 
 
@@ -324,8 +324,20 @@ E. They are all allowed <!-- .element: style="color: grey;"-->
 
 # Announcements
 
-
 ### When you realize it's time to start applying for internships<!-- .element: style="text-align: center"-->
 ![Spongebob](assets/spongebob.jpg) <!-- .element: class="center" style="border: none; box-shadow:none; width:50%;"--> 
+
+
+![Yelp logo](assets/yelp.png) <!-- .element: class="center" style="border: none; box-shadow:none; width:40%;"--> 
+## Yelp Tech Talk
+* Tonight 6PM-7PM in LWSN 1142
+* Learn about internship and opportunities at Yelp
+
+
+## WTF is a Hackathon?!
+* Monday (9/19) 8-9:30PM in FRNY G140
+* You may have asked yourself, what in the world is a hackathon? Do I need experience? What do I even do there?
+
+
 
 
