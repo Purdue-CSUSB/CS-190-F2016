@@ -185,11 +185,11 @@ cat geo_input.txt | java PlaneGeometry | grep "SCALAR"
 # Instructions
 # wget <website>
 
-# Download a file from Kirby's website
-wget http://kirbyk.me/secret.html
+# Download a file from Ben's website
+wget http://benweis.me/secret.html.
 
-# Recursively download Kirby's website (download the entire thing)
-wget -r http://kirbyk.me
+# Recursively download Jay's website (download the entire thing)
+wget -r https://jayhankins.me
 ```
 
 ### Text Statistics ###

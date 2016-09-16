@@ -1,4 +1,4 @@
-# CS190 Lab 2 (2015) - The Doctor Exposed #
+# CS 190 Lab 2 (2016) - The Doctor Exposed #
 
 The purpose of this lab is to teach some more advanced shell commands. After you finish this lab, you will be able to search for files and text, and be able to further learn any command desired.
 
@@ -26,7 +26,7 @@ Depending on your working environment, perform the appropriate action:
 5. Check 'Enable X11 Forwarding'
 6. Connect like normal to `data.cs.purdue.edu` within PuTTy.
 
-#### OSX Instructions ####
+#### OS X Instructions ####
 
 1. Install [XQuartz](http://xquartz.macosforge.org/landing/)
 2. Log out and log back in
