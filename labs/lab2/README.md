@@ -15,7 +15,10 @@ Depending on your working environment, perform the appropriate action:
 
 ----
 
-### \* You must have X11 forwarding enabled. ###
+### X11 Forwarding ###
+If you're working on this lab from home, you need to set up X11 forwarding. If you're using a lab computer, you can skip this step. 
+
+X11 forwarding is an awesome feature of ssh. Normally when you ssh into a lab machine, you're only able to use command line programs. With X11, you'll be able to use GUI programs as well. 
 
 #### Windows Instructions ####
 
@@ -36,7 +39,7 @@ Depending on your working environment, perform the appropriate action:
 ----
 
 ### The Magic Command ###
-	cd; curl -sL https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab2/lab2init | bash
+    cd; curl -sL https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab2/lab2init | bash
 
 Copy the command above and run it within the terminal. It will create a folder named `cs190lab2` located within your home directory.
 
@@ -100,7 +103,7 @@ Your answers.txt file is now located in your home directory at `~/answers.txt`. 
                         of the word "horseman". Have the output line numbers of each occurrence.
 
                         # format of output
-                        XXXX:this is the word horseback appearing in text
+                        XXXX:this is the word horseman appearing in text
 
                         XXXX is the line number
 
@@ -142,7 +145,7 @@ First you need to get the DrJava source code. Run:
     pluma <file_path> +<line_number>
 
     # example: open DrJava.java in pluma and scroll to line 349.
-    pluma drjava/src/edu/rice/cs/drjava/DrJava.java +349 &
+    pluma src/edu/rice/cs/drjava/DrJava.java +349 &
     ```
 
 2. Replace the string `"Are you sure you want to quit DrJava?"` with `"DONT QUIT LOVE ME!"`
