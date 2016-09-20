@@ -9,6 +9,9 @@
 <!-- .slide: data-background-image="assets/wave.jpg" -->
 
 
+![Matt's birthday](assets/office.jpg)
+
+
 # First, some review <!-- .element: style="text-align: center"-->
 
 
