@@ -1,6 +1,6 @@
 <!-- # CS 190: Tools
 ### September 20, 2016  .element: class="subtitle" style="text-align: center" -->
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/jeEU3cWwVRw" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/rTfa-9aCTYg" frameborder="0" allowfullscreen></iframe>
 
 
 
@@ -161,6 +161,7 @@ Sucks                         # runs our program
 /bin/ls
 ```
 <!-- .element: class="hljs nohighlight"-->
+
 
 
 # Dotfiles
