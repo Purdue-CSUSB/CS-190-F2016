@@ -9,9 +9,6 @@
 <!-- .slide: data-background-image="assets/wave.jpg" -->
 
 
-![Matt's birthday](assets/office.jpg)
-
-
 # First, some review <!-- .element: style="text-align: center"-->
 
 
@@ -46,7 +43,6 @@ What does the command `ls > file.txt` do?
 
 
 # More Terminal Commands <!-- .element: style="text-align: center"-->
-![Bird Meme](assets/birds.png)<!-- .element: class="center" style="width: 70%"-->
 
 
 ## `which`
@@ -312,6 +308,28 @@ E. `/`
 Where should you store personal executables and applications?
 
 ** B. `~/bin/`        **
+
+
+
+# Finding an Internship <!-- .element: style="text-align: center"-->
+
+
+## Some cool sites
+- Hackernews: Who's Hiring? (http://news.ycombinator.com)
+- Angel List (http://angel.co/)
+- Super awesome tutorial on how to get a job (https://github.com/cassidoo/getting-a-gig)
+
+
+## Freshmen internship programs
+- Purdue Corporate Partners
+- Microsoft Explorer Program
+- Google Engineering Practicum
+- Facebook University
+- etc.
+
+
+# JUST APPLY KTXS <!-- .element: style="text-align: center"-->
+
 
 
 
