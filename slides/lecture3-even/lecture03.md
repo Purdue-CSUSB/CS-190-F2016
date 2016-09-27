@@ -1,9 +1,3 @@
-<!-- # CS 190: Tools
-### September 20, 2016  .element: class="subtitle" style="text-align: center" -->
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/rTfa-9aCTYg" frameborder="0" allowfullscreen></iframe>
-
-
-
 # ＬＥＣＴＵＲＥ 3: <!-- .element: style="background-color: pink; font-weight: bold; color: white; font-style:italic; text-align: center;"-->
 ## ＹＯＵＲ ＥＮＶＩＲＯＮＭＥＮＴ<!-- .element: style="background-color: pink; font-weight: bold; color: white; font-style:italic; text-align: center"-->
 <!-- .slide: data-background-image="assets/wave.jpg" -->
@@ -175,8 +169,7 @@ Sucks                         # runs our program
     + Chrome, Firefox
     + Dr. Java, Vim, eclipse, tmux
     + Bash, zsh, other shells
-- https://github.com/jay-hankins/dotfiles
-- https://github.com/matthewess/dotfiles
+- https://github.com/mkausas/dotfiles 
 
 
 ```
@@ -325,10 +318,11 @@ Where should you store personal executables and applications?
 - Microsoft Explorer Program
 - Google Engineering Practicum
 - Facebook University
+- Qualcomm EIP
 - etc.
 
 
-# JUST APPLY KTXS <!-- .element: style="text-align: center"-->
+# JUST APPLY <!-- .element: style="text-align: center"-->
 
 
 
