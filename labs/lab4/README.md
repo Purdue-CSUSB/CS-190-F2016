@@ -1,4 +1,4 @@
-# CS190 Lab 4 (2015) - Vim & Sublime #
+# CS190 Lab 4 (2016) - Vim & Sublime #
 
 The purpose of this lab is for you to learn the basics of Vim and Sublime Text. After you finish this lab, you will have a much better understanding of text editing for programming
 
@@ -137,7 +137,7 @@ For part two we will add a couple of settings to your .vimrc that maybe useful.
 ### Setup
 
 First create a directory for the lab in your home directory (no more magic command, you should be able to do this by
-yourself with `mkdir`). 
+yourself with `mkdir`).
 
 Download `animals.txt` and `animal-stats.rb` using `wget`. The URLs are:
 

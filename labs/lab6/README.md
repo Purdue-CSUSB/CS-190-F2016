@@ -1,4 +1,4 @@
-# CS 190 Lab 6 (2015) - Basics of Git Part 1: Local Git
+# CS 190 Lab 6 (2016) - Basics of Git Part 1: Local Git
 
 The purpose of this lab is to gain a workable knowledge of git. Not only is this a powerful
 tool for assuring you get the best grade possible on your projects, protecting you from losing
@@ -44,7 +44,7 @@ forking, you should be in a new repository. The title of the repo at the top lef
 instead of "leviathan747/snake"
 
 Now on the right side of the screen click the button to copy the clone URL to your clipboard. Make sure that you have selected
-the HTTPS option. 
+the HTTPS option.
 
 ![] (https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab6/clone.png)
 
@@ -53,7 +53,7 @@ to set up SSH keys to use SSH to clone you can learn more [here](https://help.gi
 do this on your own time).*
 
 Finally, in your terminal:
-    
+
     git clone <clone URL>
 
 where *clone URL* is the URL you just copied to your clipboard.
@@ -91,7 +91,7 @@ Now run `git log`. You should see a list of all my commits from last year. Note:
 When I wrote snake, I designed it with the ability to add cheat modules. Let's add a new one! Ours won't be very useful. It'll
 just be a behavior to make the snake zig zag.
 
-Use `wget` to download the file `zigzag.js` into the `snake/play/js/cheat/` directory. `zigzag.js` can be found at 
+Use `wget` to download the file `zigzag.js` into the `snake/play/js/cheat/` directory. `zigzag.js` can be found at
 https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab6/zigzag.js
 
 Open up `index.json` in the `snake/play/js/cheat/` directory and add an entry for your new cheat module. You will need to provide
@@ -101,7 +101,7 @@ Run `python -m SimpleHTTPServer 8000` again and refresh your browser window. Try
 on how to do this can be found at http://levistarrett.com/snake
 
 Let's check the status of our git repo.
-* Run the status command. You should see that `zigzag.js` is an untracked file and `index.json` has been modified. Now we need to 
+* Run the status command. You should see that `zigzag.js` is an untracked file and `index.json` has been modified. Now we need to
 add them to be committed.
 * Run `git add .` This will add all our files to the staging area.
 * Run `git commit -m "<your commit message here>"` with a nice descriptive commit message.
