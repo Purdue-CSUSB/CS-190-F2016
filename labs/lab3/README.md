@@ -39,11 +39,12 @@ We say to only run this once because it will overwrite your old copy, so if you 
 - Useful for running processes when you want to detach a process from the shell
 - Allows you to continue to use the shell without terminating the process
 
-
+```
     pluma <filename>    # locks up the terminal, when you quit terminal, gedit gets killed.
 
     pluma <filename> &  # terminal is not lock up, pluma is detached, terminal and pluma
                         # are not linked in any way
+```
 
 ## Part 1 - The Usual ##
 
