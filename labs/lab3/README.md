@@ -1,4 +1,4 @@
-# CS190 Lab 3 (2015) - My New Shell #
+# CS190 Lab 3 (2016) - My New Shell #
 
 The purpose of this lab is for you to learn and customize parts of your shell in order become more efficient. After you finish this lab, you will have a colorful terminal and be able to create short programs and run them from your home directory.
 
@@ -20,7 +20,7 @@ We say to only run this once because it will overwrite your old copy, so if you 
 
 ##### \` - backtick #####
 
-- This is the key at the top left of the keyboard, just below the ESC key. 
+- This is the key at the top left of the keyboard, just below the ESC key.
 - No shift is needed
 - Shares a key with the ~ symbol.
 
@@ -42,7 +42,7 @@ We say to only run this once because it will overwrite your old copy, so if you 
 
 ## Part 1 - The Usual ##
 
-There are only two tasks in this part, and they both produce the same output. 
+There are only two tasks in this part, and they both produce the same output.
 
 > CWD = Current Working Directory
 
@@ -59,7 +59,7 @@ There are only two tasks in this part, and they both produce the same output.
 
 #### Task 2 - environment variables ####
 
-In this task, you will be working with the environment variable named `PWD`. 
+In this task, you will be working with the environment variable named `PWD`.
 
     Working Directory:  not important
 
@@ -73,7 +73,7 @@ In this task, you will be working with the environment variable named `PWD`.
 
 ## Part 2 - CWD Info Script ##
 
-There is a shell script named `dirinfo` in your `~/bin` directory. You will edit this file in a text editor (pluma) to satisfy the following requirements. 
+There is a shell script named `dirinfo` in your `~/bin` directory. You will edit this file in a text editor (pluma) to satisfy the following requirements.
 
     pluma ~/bin/dirinfo &
 
@@ -118,7 +118,7 @@ First thing is first, we're going to replace Bash with Zsh.
 
 To do so, run
 
-    ypchsh $USER /bin/zsh 
+    ypchsh $USER /bin/zsh
 
 At home you'd run `chsh -s /bin/zsh`, but CS computers require the ypchsh command
 
@@ -200,7 +200,7 @@ In a terminal, with the TA present:
 4. run your personal alias
 5. ask a question about something you don't understand.
 
-If you don't complete the lab in the allotted time, email your `dirinfo` and `.zshrc` (or `.bashrc`) with your aliases to your TA. Make sure to tell them where to find 
+If you don't complete the lab in the allotted time, email your `dirinfo` and `.zshrc` (or `.bashrc`) with your aliases to your TA. Make sure to tell them where to find
 your personal alias.
 
 

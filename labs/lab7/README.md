@@ -1,4 +1,4 @@
-# CS 190 Lab 7 (2015) - Basics of Git Part 2: Remotes and GitHub
+# CS 190 Lab 7 (2016) - Basics of Git Part 2: Remotes and GitHub
 
 The purpose of this lab is to help you become more comfortable using GitHub for
 your projects. <br>
@@ -138,7 +138,7 @@ Notice that there are 4 functions defined, `+`, `-`, `*`, and `/`.
 ### Implement New Operations
 
 When you're done executing, you and your partner will have two new operators to
-implement (one each, separately): modulus division and exponentiation. 
+implement (one each, separately): modulus division and exponentiation.
 
 > Note: if you have any questions about Python syntax, ask your TA. However,
 > it should be very straightforward.
@@ -173,7 +173,7 @@ implement (one each, separately): modulus division and exponentiation.
 > Hint: what you're doing is very similar to the multiplication operator.
 > Instead of using `*`, you use the `**` operator.
 
-### Push your changes 
+### Push your changes
 
 1. When you are done with your respective implementation, commit your changes.
 
@@ -263,4 +263,3 @@ There is a great tutorial by GitHub on how to set up and use this method
 
 > Note: you will need to add an SSH key for every different machine you want
 to clone on (e.g. your personal machine and the CS servers).
-
