@@ -196,6 +196,10 @@ Run the following command:
 
     source ~/.zshrc
 
+If you are still using Bash, run the following command:
+
+    source ~/.bashrc
+
 ## Grading ##
 
 In a terminal, with the TA present:
