@@ -8,7 +8,7 @@ Before starting the lab, **OPEN THE [REFERENCE SHEET](https://github.com/Purdue-
 
 **ONLY RUN THIS ONCE. IF YOU ALREADY HAVE A ~/bin DIRECTORY RENAME IT TO AVOID LOOSING YOUR PROGRAMS**
 
-	cd; wget -NP ~/bin https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab3/dirinfo
+    cd; wget -NP ~/bin https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab3/dirinfo
 
 Copy the command above and run it within the terminal. It will **not** create a folder named `cs190lab3` located within your home directory, but rather a `bin` folder with a file called `dirinfo` inside.
 
@@ -48,7 +48,7 @@ We say to only run this once because it will overwrite your old copy, so if you 
 
 ## Part 1 - The Usual ##
 
-There are only two tasks in this part, and they both produce the same output.
+There are only two tasks in this part, and they both produce the same output. **There is no answers.txt for this lab**, but you should remember these answers for part 2. 
 
 > CWD = Current Working Directory
 
@@ -79,25 +79,29 @@ In this task, you will be working with the environment variable named `PWD`.
 
 ## Part 2 - CWD Info Script ##
 
-There is a shell script named `dirinfo` in your `~/bin` directory. You will edit this file in a text editor (pluma) to satisfy the following requirements.
+There is a shell script named `dirinfo` in your `~/bin` directory. You can edit this file in a text editor (like pluma). 
 
-    pluma ~/bin/dirinfo &
 
-1. Prints the current working directory in the format of Task 1/Task 2
-2. Prints the *contents* of the working directory.
-3. The command used to satisfy #2 must contain two relavent flags (like -a or -l). Your choice. Be prepared to explain your choice of flags.
+1. Under "Command A", add the code to print the current working directory like you did in Part 1. 
+2. Under "Command B", add the code to print the *contents* of the working directory. You have used this command before! 
+3. Add two flags to command B (like -a or -l). You can pick any flags you want, but be prepared to explain what they do. If you don't know any flags, check the `man pages` section below. 
+
 
 Detailed instructions are included in the comments of the `dirinfo` script.
 
+Remember that you can open the file using this command:
+
+    pluma ~/bin/dirinfo &
+
 #### Man Pages ####
 
-To help you in the search for flags for the 3rd requirement, you may find the `man` program helpful.
+The `man` program will give you instructions for most other programs. It also explains which flags do what. If you ever need to look up flags to use with a command, just run this code:
 
     man <command_name>  # ex. man pwd
 
-To navigate the man pages, you can click `d` and `u` to navigate down and up the page, and can click `q` to exit the man page.
+To navigate the man pages, you can type `d` and `u` to navigate down and up the page, and can type `q` to exit the man page.
 
-#### Testing Script ####
+#### Testing the dirinfo Script ####
 
 If we tried to run the `dirinfo` command right now, it would say "Permission Denied". To fix this, we need to make the `dirinfo` executable. Run the command below to give your command executable rights.
 
