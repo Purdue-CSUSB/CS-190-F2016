@@ -1,10 +1,10 @@
-# CS190 Lab 5 (2015) - Debugging #
+# CS190 Lab 5 (2016) - Debugging #
 
 In this lab you'll go through a short program, identify the bugs and fix them.
 
 ### Download the source ###
 
-Use `wget` to download the source code for this lab. 
+Use `wget` to download the source code for this lab.
 
 **You should make a new directory to store this, eg. `~/cs190lab5`**
 
