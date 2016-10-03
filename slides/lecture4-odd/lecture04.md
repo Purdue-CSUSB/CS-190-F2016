@@ -239,7 +239,50 @@ set clipboard=unnamed
 # Sublime Text
 
 
-## Open Projects / Folders
+Open Projects / Folders:<!--.element: style="font-weight: 500; text-align: center;" -->
+![open folders sublime](assets/open-projects.png)<!-- .element: class="center" style="width: 80%; border: none; box-shadow:none;"-->
+
+
+Navigate Files:<!--.element: style="font-weight: 500; text-align: center;" -->
+![navigate files sublime](assets/navigate-files.png)<!-- .element: class="center" style="width: 80%; border: none; box-shadow:none;"-->
+
+Command + P "Filename"
+<!--.element: style="text-align: center; margin-top: -30px;" -->
+
+
+Finding in Files:<!--.element: style="font-weight: 500; text-align: center;" -->
+![find in files sublime](assets/find-in-files.png)<!-- .element: class="center" style="width: 80%; border: none; box-shadow:none;"-->
+
+Command + P "@MethodName"
+<!--.element: style="text-align: center; margin-top: -30px;" -->
+
+
+##### [Package Control:](https://packagecontrol.io/)
+<!--.element: style="font-weight: 500; text-align: center;" -->
+![package control sublime](assets/package-control.png)<!-- .element: class="center" style="width: 80%; border: none; box-shadow:none;"-->
+
+Command + Shift + P "Package Control"
+<!--.element: style="text-align: center; margin-top: -30px;" -->
+
+
+Multiple Cursors:<!--.element: style="font-weight: 500; text-align: center;" -->
+![multiple cursors sublime](assets/multiple-cursors.png)<!-- .element: class="center" style="width: 80%; border: none; box-shadow:none;"-->
+
+Command + Shift + L and Command + D
+<!--.element: style="text-align: center; margin-top: -30px;" -->
+
+
+* Command + Shift + L 
+    * Adds a cursor to every line you currently have selected
+* Command + D
+    * Adds a cursor to the next instance of the current word and adds it to your selection
+
+
+Split Panes:<!--.element: style="font-weight: 500; text-align: center;" -->
+![split panes sublime](assets/split-pane.png)<!-- .element: class="center" style="width: 80%; border: none; box-shadow:none;"-->
+
+Command + Option + &lt;Number Key&gt;
+<!--.element: style="text-align: center; margin-top: -30px;" -->
 
 
 
