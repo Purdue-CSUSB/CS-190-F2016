@@ -237,6 +237,7 @@ set clipboard=unnamed
 
 
 # Sublime Text
+![sublime logo](assets/sublime-logo.png)<!-- .element: class="center" style="width: 25%; border: none; box-shadow:none;"-->
 
 
 Open Projects / Folders:<!--.element: style="font-weight: 500; text-align: center;" -->
@@ -283,6 +284,33 @@ Split Panes:<!--.element: style="font-weight: 500; text-align: center;" -->
 
 Command + Option + &lt;Number Key&gt;
 <!--.element: style="text-align: center; margin-top: -30px;" -->
+
+
+
+# Atom
+![atom logo](assets/atom-logo.png)<!-- .element: class="center" style="width: 25%; border: none; box-shadow:none;"-->
+
+
+## A modern competitor for Sublime Text
+* Has virtually 1:1 feature compatibility with Sublime
+* Built on web technologies by Github, using the [Electron](http://electron.atom.io/) library
+* Atom is completely free, so goodbye annoying popups!
+
+
+## Pros
+* Like I said, completely free
+* Built-in Markdown rendering (web technologies are neat-o)
+* Open source, modular, and hackable with a large community for support
+* Built by Github, so very tightly integrated with source control packages
+
+
+## Cons
+* Performance and battery usage take a big hit (web technologies are neat-o)
+* Not as mature as Sublime
+
+
+## Verdict
+Try them both and use what you like!
 
 
 
