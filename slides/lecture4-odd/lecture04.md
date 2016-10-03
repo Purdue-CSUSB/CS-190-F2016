@@ -343,7 +343,10 @@ What symbol is used to access environment variables in the shell?
 * [Facebook!](https://www.facebook.com/events/201308836956161/)
 
 
+![hello world logo](assets/hello-world-logo.png)<!-- .element: class="center" style="width: 20%; border: none; box-shadow:none; vertical-align:baseline;"-->
+
 ## Hello World
+
 * Hackathon for freshmen
 * Team up with your friends (or some strangers) and make a project in 24 hours
 * If you're curious about hackathons, this is the place to start
