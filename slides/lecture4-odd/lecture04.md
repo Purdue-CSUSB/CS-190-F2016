@@ -330,3 +330,22 @@ D. dx
 What symbol is used to access environment variables in the shell?
 
 ** C. dd **
+
+
+
+# Announcements
+
+
+## AMCS Callout
+* Association of Multicultural Computer Scientists
+* Advocate for diversity issues in the CS Department
+* Wednesday October 12, 530pm, Lawson Commons
+* [Facebook!](https://www.facebook.com/events/201308836956161/)
+
+
+## Hello World
+* Hackathon for freshmen
+* Team up with your friends (or some strangers) and make a project in 24 hours
+* If you're curious about hackathons, this is the place to start
+* [Facebook!](https://www.facebook.com/events/1648316605480897/)
+* [Register here!](http://helloworld.purduehackers.com/)
