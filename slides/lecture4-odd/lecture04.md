@@ -75,12 +75,12 @@ vim (1991)
 ## Modes in Vim
 #### Normal (Command) Mode: 
 * Keys execute commands instead of inserting text.
-* Get back to command mode by hitting the `&lt; Esc&gt;` key.
+* Get back to command mode by hitting the `<Esc>` key.
 
 #### Insert Mode:
 * To enter the insert mode, type `i` (for "insert") 
 * You can now insert text into the document
-* To get out of insert mode, hit the `&lt; Esc&gt;` key
+* To get out of insert mode, hit the `<Esc>` key
 
 
 ## Navigating in Vim
@@ -103,7 +103,7 @@ vim (1991)
 | $         | jump to end of line       |
 | w         | move forward one (w)ord   |
 | b         | move (b)ackward one word  |
-| :&lt; line #&gt; | move to a line number     |
+| :&lt;line#&gt; | move to a line number     |
 
 
 ![vim joke](assets/vim.jpg)<!-- .element: class="center" style="width: 100%; border: none; box-shadow:none;"-->
@@ -117,7 +117,7 @@ vim (1991)
 | :q             | (q)uit vim, will warn if changes are unsaved |
 | :q!            | (q)uit without saving                        |
 | :w             | (w)rite (save) the current file              |
-| :w &lt; file name&gt; | (w)rite (save) the file as &lt; file name&gt;       |
+| :w &lt;file name&gt; | (w)rite (save) the file as &lt; file name&gt;       |
 
 * Commands can be chained together: `:wq`
 
@@ -130,7 +130,7 @@ vim (1991)
 | dw           | (d)eletes the next (w)ord              |
 | dd           | (d)eletes the current line             |
 | u            | (u)ndo the last action                 |
-| &lt; ctrl&gt; r     | (r)edo the last action                 |
+| &lt;ctrl&gt; r     | (r)edo the last action                 |
 
 * Deleting is similar to cut
 * Deleting will copy to vim's clipboard
