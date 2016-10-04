@@ -151,9 +151,9 @@ Next you need to install Sublime on your system. Run the following commands
 
 ```bash
 mkdir -p ~/bin
-wget http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64.tar.bz2
-tar jxf Sublime\ Text\ 2.0.2\ x64.tar.bz2 -C ~/bin
-PATH=$PATH:$HOME/bin/Sublime\ Text\ 2
+wget https://download.sublimetext.com/sublime_text_3_build_3126_x64.tar.bz2    
+tar jxf sublime_text_3_build_3126_x64.tar.bz2 -C ~/bin
+PATH=$PATH:$HOME/bin/sublime_text_3
 ```
 
 Run Sublime with `sublime_text &`
