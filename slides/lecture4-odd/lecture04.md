@@ -9,6 +9,11 @@
 
 
 
+## No Labs Next Week!<!--.element: style="text-align: center;" -->
+![calendar](assets/calendar.png)<!-- .element: class="center" style="width: 80%; border: none; box-shadow:none;"-->
+
+
+
 # Lecture 4:
 ### Text Editors <!-- .element: class="subtitle" style="text-align: center" -->
 
@@ -314,6 +319,9 @@ Try them both and use what you like!
 
 
 
+# Quiz
+
+
 ## Quiz 4.2
 How would you delete the current line in vim if you are in command mode?
 
@@ -339,16 +347,16 @@ What symbol is used to access environment variables in the shell?
 ## AMCS Callout
 * Association of Multicultural Computer Scientists
 * Advocate for diversity issues in the CS Department
-* Wednesday October 12, 530pm, Lawson Commons
-* [Facebook!](https://www.facebook.com/events/201308836956161/)
+* Wednesday October 12, 5:30:00 PM EDT, Lawson Commons
+* [Facebook Event!](https://www.facebook.com/events/201308836956161/)
 
 
 ![hello world logo](assets/hello-world-logo.png)<!-- .element: class="center" style="width: 20%; border: none; box-shadow:none; vertical-align:baseline;"-->
 
-## Hello World
+## [Hello World](http://helloworld.purduehackers.com/)
 
 * Hackathon for freshmen
 * Team up with your friends (or some strangers) and make a project in 24 hours
 * If you're curious about hackathons, this is the place to start
-* [Facebook!](https://www.facebook.com/events/1648316605480897/)
-* [Register here!](http://helloworld.purduehackers.com/)
+* [Facebook Event!](https://www.facebook.com/events/1648316605480897/)
+* [Register Here!:](http://helloworld.purduehackers.com/) http://helloworld.purduehackers.com/
