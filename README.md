@@ -8,7 +8,7 @@ shells, and encompasses editors, debuggers, and source control software. Our goa
 
 ## Structure
 
-CS 190 is taught for sixteen weeks, alternating two sections weekly. at the beginning of the fall semester for Freshman CS students. It consists of a one hour lecture and a one hour lab each week. The labs for the course can be found in the `labs/` directory, and the slides and demos used in lecture can be found in the `slides/` and `demos/` directories respectively.
+CS 190 is taught for sixteen weeks, alternating two sections weekly, at the beginning of the fall semester for Freshman CS students. It consists of a one hour lecture and a one hour lab each week. The labs for the course can be found in the `labs/` directory, and the slides and demos used in lecture can be found in the `slides/` and `demos/` directories respectively.
 
 ## Reference
 
