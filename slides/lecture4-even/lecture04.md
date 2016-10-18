@@ -1,16 +1,16 @@
 # CS 190: Tools
-### October 4, 2016  
+### October 18, 2016  
 <!--.element: class="subtitle" style="text-align: center" -->
 
 
 
-# &#127875; HAPPY OCTOBER &#127875;<!-- .element: style="background-color: orange; font-weight: bold; color: black; text-align: center;"-->
-<!-- .slide: data-background-image="assets/pumpkin-man.gif" -->
+# &#127875; HAPPY OCTOBER &#127875;<!-- .element: style="background-color: #ff9b51; font-weight: bold; color: #f9f9f9; text-align: center;"-->
+<!-- .slide: data-background-image="assets/spooky.gif" -->
 
 
 
-## No Labs Next Week!<!--.element: style="text-align: center;" -->
-![calendar](assets/calendar.png)<!-- .element: class="center" style="width: 80%; border: none; box-shadow:none;"-->
+## \~\~\~Hello World\~\~\~<!--.element: style="text-align: center;" -->
+![hello world poster](assets/calendar.png)<!-- .element: class="center" style="width: 80%; border: none; box-shadow:none;"-->
 
 
 
@@ -344,19 +344,16 @@ What symbol is used to access environment variables in the shell?
 # Announcements
 
 
-## AMCS Callout
-* Association of Multicultural Computer Scientists
-* Advocate for diversity issues in the CS Department
-* Wednesday October 12, 5:30:00 PM EDT, Lawson Commons
-* [Facebook Event!](https://www.facebook.com/events/201308836956161/)
+## Technical Interview Prep Night
+* Undergraduate Board for Computer Science
+* Get interview practice and hear from people that have had internships
+* Tonight (October 18), 6:00 PM EDT, Lawson 1142
+* [Facebook Event!](https://www.facebook.com/events/2145639872328109)
 
 
-![hello world logo](assets/hello-world-logo.png)<!-- .element: class="center" style="width: 20%; border: none; box-shadow:none; vertical-align:baseline;"-->
+## Fireside Chat with Samsung
 
-## [Hello World](http://helloworld.purduehackers.com/)
-
-* Hackathon for freshmen
-* Team up with your friends (or some strangers) and make a project in 24 hours
-* If you're curious about hackathons, this is the place to start
-* [Facebook Event!](https://www.facebook.com/events/1648316605480897/)
-* [Register Here!:](http://helloworld.purduehackers.com/) http://helloworld.purduehackers.com/
+* Hear from Chris Lee, Samsung Mobile tech scout 
+* Will include information on Samsung technology and internships
+* Tomorrow (October 19), 7:00 PM EDT, The Anvil
+* [Facebook Event!](https://www.facebook.com/events/179696709144000)
