@@ -10,7 +10,7 @@
 
 
 ## \~\~\~Hello World\~\~\~<!--.element: style="text-align: center;" -->
-![hello world poster](assets/calendar.png)<!-- .element: class="center" style="width: 80%; border: none; box-shadow:none;"-->
+![hello world poster](assets/poster.jpg)<!-- .element: class="center" style="width: 80%; border: none; box-shadow:none;"-->
 
 
 
