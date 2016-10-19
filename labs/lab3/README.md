@@ -40,10 +40,10 @@ We say to only run this once because it will overwrite your old copy, so if you 
 - Allows you to continue to use the shell without terminating the process
 
 ```
-    pluma <filename>    # locks up the terminal, when you quit terminal, gedit gets killed.
+pluma <filename>    # locks up the terminal, when you quit terminal, gedit gets killed.
 
-    pluma <filename> &  # terminal is not lock up, pluma is detached, terminal and pluma
-                        # are not linked in any way
+pluma <filename> &  # terminal is not locked up, pluma is detached, terminal and pluma
+                   # are not linked in any way
 ```
 
 ## Part 1 - The Usual ##
