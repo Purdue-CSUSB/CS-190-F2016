@@ -36,7 +36,7 @@ First we will try to compile DrJava to see that it is in fact broken.
 * Tell ant where Java 8 is
 
 ```bash
-export JAVA8_HOME=/opt/oracle-jdk-bin-1.8.0.45/
+export JAVA8_HOME=/opt/oracle-jdk-bin-1.8.0.92/
 ```
 
 * Compile DrJava by running the command
