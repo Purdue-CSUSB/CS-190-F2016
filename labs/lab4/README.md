@@ -33,13 +33,13 @@ tar -zxvf ~/buggy-drjava.tar.gz -C ~
 
 First we will try to compile DrJava to see that it is in fact broken.
 
-* Tell ant where Java 8 is
+* Tell ant where Java 8 is:
 
 ```bash
 export JAVA8_HOME=/opt/oracle-jdk-bin-1.8.0.92/
 ```
 
-* Compile DrJava by running the command
+* Compile DrJava by running the command:
 
 ```basn
 cd ~/drjava; ant jar
@@ -51,7 +51,7 @@ cd ~/drjava; ant jar
 
 The first bug that we will fix is a spelling error in `DrJava.java`
 
-* Navigate to the `~/drjava` directory. Open `DrJava.java` with the command
+* Navigate to the `~/drjava` directory. Open `DrJava.java` with the command:
 
 ```bash
 vim src/edu/rice/cs/drjava/DrJava.java
@@ -64,7 +64,7 @@ to replace all instances of "statc" to "static" in this file (Hint: you can find
 
 The next problem we have is a logical error causing the quit dialog to be completely bypassed (even if there are unsaved changes).
 
-* From the `~/drjava` directory, open `MainFrame.java` with the command
+* From the `~/drjava` directory, open `MainFrame.java` with the command:
 
 ```bash
 vim src/edu/rice/cs/drjava/ui/MainFrame.java
@@ -78,13 +78,13 @@ vim src/edu/rice/cs/drjava/ui/MainFrame.java
 
 #### Recompile and test
 
-Recompile DrJava with the following command
+Recompile DrJava with the command:
 
 ```bash
 cd ~/drjava; ant jar
 ```
 
-Run DrJava with this command and verify that your changes fixed the bugs
+Run DrJava with this command and verify that your changes fixed the bugs:
 
 ```bash
 java -jar drjava.jar
@@ -109,7 +109,7 @@ For part two we will add a couple of settings to your .vimrc that maybe useful.
 
 4. Press `o`, this will put you in *Insert Mode* and add a new line under your cursor. This is one of vim's MANY handy shortcuts.
 
-5. On this newly created line, in insert mode(you should be from the last step), paste the code below on that line.
+5. On this newly created line, in *Insert mode* (you should be from the last step), paste the code below on that line.
 
     > If you try and paste code without being in *Insert Mode*, each character that is part of the
     > pasted string will act as input to Vim.
@@ -123,7 +123,7 @@ For part two we will add a couple of settings to your .vimrc that maybe useful.
     nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
     ```
 
-3. Now save the file and quit
+3. Now save the file and quit:
     ```
     <ESC>
     :wq
@@ -147,7 +147,7 @@ and
 https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab4/animal-stats.rb
 ```
 
-Next you need to install Sublime on your system. Run the following commands
+Next you need to install Sublime on your system. Run the following commands:
 
 ```bash
 mkdir -p ~/bin
@@ -158,7 +158,7 @@ PATH=$PATH:$HOME/bin/sublime_text_3
 
 Run Sublime with `sublime_text &`
 
-> If you want this to work permantetly, add `export PATH=$PATH:$HOME/bin/Sublime\ Text\ 2` to the end of your .zshrc (or .bashrc if you are using bash).
+> If you want this to work permanently, add `export PATH=$PATH:$HOME/bin/Sublime\ Text\ 2` to the end of your .zshrc (or .bashrc if you are using bash).
 
 
 In this part of the lab you are given two files `animals.txt` and `animal-stats.rb`. Your goal is to use Sublime to edit `animals.txt`, so you can insert it into `animal-stats.rb`, so that it can run properly.
@@ -193,7 +193,7 @@ Hints:
 
 2. Run your DrJava and show the TA that you fixed the bugs. `cd ~/drjava && java -jar drjava.jar`
 
-3. Check output of ruby program (`ruby animal-stats.rb`), output should look like this
+3. Check output of ruby program (`ruby animal-stats.rb`), output should look like this:
 
 ```
 There are 591 animals with an average letter count of 10.
