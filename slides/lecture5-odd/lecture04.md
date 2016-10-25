@@ -1,5 +1,5 @@
 # CS 190: Tools
-### October 4, 2016  
+### October 25, 2016  
 <!--.element: class="subtitle" style="text-align: center" -->
 
 
