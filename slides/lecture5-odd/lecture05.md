@@ -4,7 +4,8 @@
 
 
 
-## git ready <!--.element: style="text-align: center;" -->
+## Lecture 5<!--.element: style="text-align: center;" -->
+### git ready <!--.element: style="text-align: center;" -->
 ![Octocat](assets/daftpunktocat-guy.gif)<!-- .element: class="center" style="width: 80%; border: none; box-shadow:none;"-->
 
 
@@ -24,6 +25,10 @@ C. We work on the same computer
 D. Git or some other source control (yay!)
 
 E. I’ve never worked on a group programming project
+<br>
+
+<span>Forgot your i>clicker? Sign in: https://purdueusb.com/cs190/signin</span>
+<!--.element: style="font-size: 16pt" -->
 
 
 
@@ -31,17 +36,18 @@ E. I’ve never worked on a group programming project
 ### Basics of Git <!-- .element: class="subtitle" style="text-align: center" -->
 
 
-# Github and git <!-- .element: style="text-align: center"-->
+# GitHub and git <!-- .element: style="text-align: center"-->
 
 
-## What is Github?
+## What is GitHub?
 * GitHub is a place to put code
 * GitHub is like a programmer's portfolio
-* Hackathons (even BoilerMake) require a GitHub account
+* Hackathons (even BoilerMake) usually require a GitHub account
 * GitHub uses git
 
 
-## Source Control(aka Revision Control or Version Control)
+## Source Control
+#### (aka Revision Control or Version Control)
 * History of changes in code
 * Great for teams
 * Sync code across machines
@@ -69,6 +75,7 @@ Initial commit
 
 nothing to commit (create/copy files and use "git add" to track)
 ```
+<!-- .element: class="hljs nohighlight"-->
 
 
 ## New file handling
@@ -86,6 +93,7 @@ Untracked files:
 	CoolCode.java
 nothing added to commit but untracked files present (use "git add" to track)
 ```
+<!-- .element: class="hljs nohighlight"-->
 
 
 ## Adding stuff
@@ -103,6 +111,7 @@ Changes to be committed:
 
 new file:   CoolCode.java
 ```
+<!-- .element: class="hljs nohighlight"-->
 
 
 ## Committing changes
@@ -119,6 +128,7 @@ On branch master
 nothing to commit, working directory clean
 Initial commit
 ```
+<!-- .element: class="hljs nohighlight"-->
 
 
 ![Git screenshot](assets/git-flow.png)<!-- .element: class="center"-->
@@ -135,6 +145,7 @@ Date:   Tue Oct 28 17:40:25 2014 -0400
 
     initial commit
 ```
+<!-- .element: class="hljs nohighlight"-->
 
 
 ## Looking at old commits
@@ -151,6 +162,8 @@ diff --git a/.gitignore b/.gitignore
  *.class
 +*.swp
 ```
+<!-- .element: class="hljs nohighlight"-->
+
 
 
 ## Looking at old commits (cont.)
@@ -182,6 +195,7 @@ Reversing old commits
 8 # Changes to be committed:
 9 #       modified:   .gitignore
 ```
+<!-- .element: class="hljs nohighlight"-->
 
 
 ## Annoying class files
@@ -196,6 +210,7 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
+<!-- .element: class="hljs nohighlight"-->
 
 
 ## .gitignore to the rescue!
@@ -211,6 +226,7 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
+<!-- .element: class="hljs nohighlight"-->
 
 
 ## .gitconfig: make a badass workflow!
@@ -232,6 +248,7 @@ nothing added to commit but untracked files present (use "git add" to track)
  20     m = merge --no-ff
  21     dt = difftool
 ```
+<!-- .element: class="hljs nohighlight"-->
 
 
 ## Using branches
@@ -244,6 +261,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 ~ » git checkout -b new_branch
 Switched to a new branch 'new_branch'
 ```
+<!-- .element: class="hljs nohighlight"-->
 
 
 ## Branching example (CS project)
@@ -314,3 +332,10 @@ Have you found the extra content we’ve included at the end of our lectures (ho
 A. Yes
 
 B. No
+
+<span>Forgot your i>clicker? Sign in (only once): https://purdueusb.com/cs190/signin</span>
+<!--.element: style="font-size: 16pt" -->
+
+
+
+<!-- .slide: data-background-image="assets/giphy.gif" -->
