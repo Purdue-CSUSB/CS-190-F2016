@@ -10,6 +10,13 @@
 
 
 
+## Commitment Week <!--.element: style="text-align: center;" -->
+### by Purdue Hackers <!--.element: style="text-align: center;" -->
+#### https://www.facebook.com/events/1245326688872999/?active_tab=discussion <!--.element: style="text-align: center;" -->
+#### https://www.facebook.com/purduehackers/videos/1439574456071244/ <!--.element: style="text-align: center;" -->
+
+
+
 ## Lecture 5<!--.element: style="text-align: center;" -->
 ### git ready <!--.element: style="text-align: center;" -->
 ![Octocat](assets/daftpunktocat-guy.gif)<!-- .element: class="center" style="width: 80%; border: none; box-shadow:none;"-->
