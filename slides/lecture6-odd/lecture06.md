@@ -4,9 +4,9 @@
 
 
 
-## Lecture 6<!--.element: style="text-align: center;" -->
-### Collaboration in git <!--.element: style="text-align: center;" -->
-### AKA git remotes <!--.element: class="subtitle" style="text-align: center; font-size: 30pt" -->
+# Lecture 6:
+### Collaborating with git <!-- .element: class="subtitle" style="text-align: center" -->
+### a.k.a. (git remotes)<!-- .element: class="subtitle" style="text-align: center; font-size: 24pt" -->
 
 
 
@@ -29,9 +29,22 @@ D. A new version of git.
 <!--.element: style="font-size: 16pt" -->
 
 
+## Quiz 6.1 Answer
+What is Github?
 
-# Lecture 6:
-### git remotes and collaboration <!-- .element: class="subtitle" style="text-align: center" -->
+A. A piece of software that sends code to other developers.
+
+** B. A website that provides a frontend for git repositories with extra features. **
+
+C. A dating website for programmers.
+
+D. A new version of git.
+<br>
+
+<span>Forgot your i>clicker? Sign in: https://purdueusb.com/cs190/signin</span>
+<!--.element: style="font-size: 16pt" -->
+
+
 
 
 # Reminders: Local git basics <!-- .element: style="text-align: center"-->
@@ -141,6 +154,8 @@ The remote gets one entry for fetching (getting changes) and pushing (sending ch
 
 
 ### Pull new changes
+* used to get the latest changes from the remote to your local machine
+
 ```
 ~ git:(master) » git pull
 remote: Counting objects: 22, done.
@@ -158,6 +173,8 @@ Fast-forward
 
 
 ### Clone a remote
+* used to save a repo to your local machine
+
 ```
 ~ » git clone https://github.com/jay-hankins/cool_project.git
 Cloning into 'cool_project'...
