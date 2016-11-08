@@ -3,6 +3,9 @@
 <!--.element: class="subtitle" style="text-align: center" -->
 
 
+<iframe src="https://drive.google.com/file/d/0B6T9Y1awPtf7LTNnOU0zYzVEekU/preview" width="100%" height="550"></iframe>
+
+
 
 # Lecture 6:
 ### Collaborating with git <!-- .element: class="subtitle" style="text-align: center" -->
@@ -342,3 +345,8 @@ A. What you use to control your TV
 C. A sequence of commits
 
 D. The contents of a commit
+
+
+
+
+<!-- .slide: data-background-image="assets/Battleship.svg" -->
