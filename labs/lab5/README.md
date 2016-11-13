@@ -37,9 +37,15 @@ If you are using the Python file, you should use print statement debugging for c
 ##### Using the jdb debugger #####
 
 1. Open a terminal.
-2. Compile Transformer.java (with `-g` to get better debug information) by running the command `javac -g Transformer.java`.
-3. Start jdb by running the command `jdb Transformer` within the directory with the .class file.
-4. Type `help` from within jdb to see a list of all the available commands.
+2. Go to the location of your Transformer.java file (e.g. cs190lab5/Transformer/src).
+3. Compile Transformer.java (with `-g` to get better debug information) by running the command `javac -g Transformer.java`.
+4. Start jdb by running the command `jdb Transformer` within the directory with the .class file.
+5. Set a breakpoint by running `stop at Transformer:<line number here>`. (Make sure the line you specify has code, otherwise jdb will not run)
+6. Start the debugging process by running `run`.
+7. Execute the code line by line by running `step`.
+8. Display the current value of a variable by running `print <name of variable>`
+9. Stop jdb with `exit` or `quit`.
+10. Type `help` from within jdb to see a list of all the available commands.
 
 
 ## Start Here ##
