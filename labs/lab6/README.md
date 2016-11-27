@@ -25,7 +25,7 @@ We will now get the code for the lab from GitHub. Before you continue, you must 
 
 Navigate to the project page that can be found at https://github.com/Purdue-CSUSB/pycalc. In the top right-hand corner, press the "Fork" button.
 
-![Fork screenshot] (https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab6/fork-screenshot.png)
+![Fork screenshot] (https://github.com/Purdue-CSUSB/CS-190-F2016/blob/jay-lab6/labs/lab6/assets/fork-screenshot.png)
 
 *Note: If you are part of a group on GitHub, it may ask you where you want to fork the repository. If it asks you this,just fork it into your personal GitHub.*
 
