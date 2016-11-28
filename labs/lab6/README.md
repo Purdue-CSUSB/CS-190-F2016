@@ -25,7 +25,7 @@ We will now get the code for the lab from GitHub. Before you continue, you must 
 
 Navigate to the project page that can be found at https://github.com/Purdue-CSUSB/pycalc. In the top right-hand corner, press the "Fork" button.
 
-![Fork screenshot](https://github.com/Purdue-CSUSB/CS-190-F2016/blob/jay-lab6/labs/lab6/assets/fork-screenshot.png)
+![Fork screenshot](https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab6/assets/fork-screenshot.png)
 
 *Note: If you are part of a group on GitHub, it may ask you where you want to fork the repository. If it asks you this,just fork it into your personal GitHub.*
 
@@ -34,7 +34,7 @@ Forking simply makes a copy of the repository in your own account so that you ha
 Now on the right side of the screen click the button to copy the clone URL to your clipboard. Make sure that you have selected
 the HTTPS option.
 
-![Clone screenshot] (https://github.com/Purdue-CSUSB/CS-190-F2016/blob/jay-lab6/labs/lab6/assets/clone-screenshot.png)
+![Clone screenshot](https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab6/assets/clone-screenshot.png)
 
 *Note: There are other protocols to do this (some of them more convenient than HTTPS). If you'd like to learn how
 to set up SSH keys to use SSH to clone you can learn more [here](https://help.github.com/articles/generating-ssh-keys/) (please
