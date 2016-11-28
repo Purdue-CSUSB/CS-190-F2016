@@ -25,7 +25,7 @@ We will now get the code for the lab from GitHub. Before you continue, you must 
 
 Navigate to the project page that can be found at https://github.com/Purdue-CSUSB/pycalc. In the top right-hand corner, press the "Fork" button.
 
-![Fork screenshot] (https://github.com/Purdue-CSUSB/CS-190-F2016/blob/jay-lab6/labs/lab6/assets/fork-screenshot.png)
+![Fork screenshot](https://github.com/Purdue-CSUSB/CS-190-F2016/blob/jay-lab6/labs/lab6/assets/fork-screenshot.png)
 
 *Note: If you are part of a group on GitHub, it may ask you where you want to fork the repository. If it asks you this,just fork it into your personal GitHub.*
 
@@ -40,26 +40,15 @@ the HTTPS option.
 to set up SSH keys to use SSH to clone you can learn more [here](https://help.github.com/articles/generating-ssh-keys/) (please
 do this on your own time).*
 
-Finally, in your terminal:
+Finally, run the clone command in your terminal:
 
-    git clone <clone URL>
+    $ git clone <clone URL>
 
-where *clone URL* is the URL you just copied to your clipboard.
+where `<clone URL>` is the URL you just copied to your clipboard.
 
 ## Step 0: The project
 
-The project we will be working with is actually an open source project that I wrote when I was a freshman and then revamped
-on GitHub last Summer/Fall. It's a web hosted snake game. If you've ever played snake on an old Nokia phone, this will be
-very familiar to you.
-
-To run the game, navigate into the `snake/play` directory and run the command:
-
-    python -m SimpleHTTPServer 8000
-
-then go to your browser and type "http://localhost:8000" into the address bar. Familiarize yourself with how the game works.
-The project page can be found at http://leviathan.levistarrett.com/snake/.
-
-Press Ctrl-C to stop the python server.
+The project we will be working with is a simple 4-function calculator written in Python. See the [project page](https://github.com/Purdue-CSUSB/pycalc) for steps on how to use the calculator on how to use the calculator.
 
 ## Step 1: Check the status of the repo
 
@@ -71,79 +60,86 @@ Your branch is up-to-date with 'origin/master'.
 nothing to commit, working directory clean
 ```
 
-Now run `git log`. You should see a list of all my commits from last year. Note: it will open in a program called less. Press
+Now run `git log`. You should see a list of the few commits that I pushed to publish the project. Note: it will open in a program called less. Press
 'q' to exit.
 
 ## Step 2: Make a change
 
-When I wrote snake, I designed it with the ability to add cheat modules. Let's add a new one! Ours won't be very useful. It'll
-just be a behavior to make the snake zig zag.
+Now, let's demonstrate git's usefulness in tracking code changes. 
 
-Use `wget` to download the file `zigzag.js` into the `snake/play/js/cheat/` directory. `zigzag.js` can be found at
-https://raw.githubusercontent.com/Purdue-CSUSB/CS-190-F2016/master/labs/lab6/zigzag.js
+Open up `calc.py` in a text editor. Go to the subtract function, which starts on line 22. On line 26, change the return statement to be `a + b`. 
 
-Open up `index.json` in the `snake/play/js/cheat/` directory and add an entry for your new cheat module. You will need to provide
-a name and description for your module. The name should be "zigzag.js" (matches the name of the JavaScript file).
+Run the calculator again and check what happens with the subtraction function. Some example output:
 
-Run `python -m SimpleHTTPServer 8000` again and refresh your browser window. Try loading and enabling your new cheat. Instructions
-on how to do this can be found at http://levistarrett.com/snake
+    Enter the first argument: 3
+    Enter the operation: -
+    Enter the second argument: 3
+    Difference:  6
 
 Let's check the status of our git repo.
-* Run the status command. You should see that `zigzag.js` is an untracked file and `index.json` has been modified. Now we need to
-add them to be committed.
-* Run `git add .` This will add all our files to the staging area.
-* Run `git commit -m "<your commit message here>"` with a nice descriptive commit message.
-* Run `git log` and you should now see both of your commit. You're well on your way to becoming a git pro!
 
-__DON'T MOVE ON TO STEP 3 UNTIL YOU MAKE SURE YOU COMMIT YOUR CHANGES__ (check your git log).
+* Run the status command. You should see that `calc.py` has been modified. We need to commit this file's changes.
+* Run `git add .` This will add all our files to the staging area.
+* Run `git commit -m "<your commit message here>"` with a nice, descriptive, present-tense commit message.
+* Run `git log` and you should now see your new commit. You're well on your way to becoming a git pro!
+
+We just modified the subtraction function to actually add the numbers, which is a bug. Even worse, we committed buggy code to the master branch! No worries, we will revert this change later.
+
+**IMPORTANT: Don't move on to step 3 until you make sure you commit your changes**(check your git log).
 
 ## Step 3: Make another change
 
-Now let's change the color of the food from red to green.
+Let's make another change to the code base. 
 
-Open `style.css` within the `snake/play/css/` directory in your editor. On line 32, change the "background-color" from "red"
-to "#00FF00".
+Again, open `calc.py` in a text editor. Just before the main loop runs (line 52), we want to print out a welcome message. On line 51, write the following code:
 
-Restart the python server, refresh your browser and see that the color has changed. If you get stuck make sure you ask a TA
-to help you.
+```python
+print "Welcome to PyCalc!"
+```
 
-Now with git:
-* Add the changes to `style.css`
-* Commit your changes.
-* Check your git status and git log
+Run the calculator again and see your welcome message in the terminal. Some example output:
 
-You're getting fluent at these git commands
-already!
+    Welcome to PyCalc!
+    Enter the first argument: 3
+    Enter the operation: -
+    Enter the second argument: 3
+    Difference:  6
 
-__Pro tip: You can never overuse the *log* and *status* commands. You should be looking at these between
-almost every command__
+As you can see, both changes (the faulty subtraction function, and the welcome message) are present in our code base.
 
-__DON'T MOVE ON TO STEP 4 UNTIL YOU MAKE SURE YOU COMMIT YOUR CHANGES__ (check your git log).
+Again, add the files to track their changes in git. Commit the change you made, and check the log to ensure the new commit is there.
 
 ## Step 4: A step backwards
 
-Now that you're this far you decide that you want the food to be red again instead of green.
+The current state of our calculator isn't so great. It prints a welcome message (nice!) but it doesn't subtract properly (yikes!).
 
-Run `git log`. Find the commit that you just committed (it should be the top one) and copy the commit hash.
+Run `git log`. Find the commit that you breaks the subtraction function (it should be the second from the top) and copy the commit hash.
 
 Run `git revert <commit_hash>`. This will open up an editor with a commit that says something like
 "Revert '*some message*' This commit reverts *some commit hash*".
 
 **Important Note!**
 
-If it opens in vim, then follow these steps to save the file and return to the nice familiar terminal.
+The revert command will likely open vim. Follow these steps to save the file and return to the nice familiar terminal.
 
 1. Don't panic
-2. type `:wq`
+2. Press <ESC> a few times to make sure you are in command mode, not edit mode.
+3. type `:wq`
 
-    > For the curious: the colon allows you to type commands, w is for write, and q is for quit.
+    > Remember: the colon allows you to type commands, w is for write, and q is for quit.
 
-3. You have now committed!
+4. You have now committed!
 
 
-Restart the python server again and refresh. The food should be back to red!
+Run the calculator again. You should now see the welcome message (yay!) and the subtract function should work correctly (woohoo!). Example output:
 
-__Give your neighbor a high five, you just did some serious source control.__
+    Welcome to PyCalc!
+    Enter the first argument: 3
+    Enter the operation: -
+    Enter the second argument: 3
+    Difference:  0
+
+**Give your neighbor a high five, you just did some serious source control.**
 
 ## Grading
 
@@ -156,8 +152,4 @@ Here are some practical things you could do with git if you have extra time:
 * Work on your .gitconfig file. Some useful information here: http://git-scm.com/docs/git-config
 * Put your CS 180 project into a git repository!
 
-    > Please don't put your CS 180 projects into public repos on GitHub. Make sure they're in a private repo.
-
-* If you want, write a real cheat module for snake and submit a pull request. I'd love to see what you guys can
-come up with!
-* Ask your TA a question about something you don't understand.
+    > Please don't put your Purdue CS projects into public repos on GitHub. Make sure they're in a private repo. You can get in big trouble with your professors if you post projects publicly. 
