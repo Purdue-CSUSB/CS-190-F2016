@@ -145,11 +145,39 @@ Run the calculator again. You should now see the welcome message (yay!) and the 
 
 Show your TA your git log.
 
-## Step 5: Extras!
+## Extras
 
 Here are some practical things you could do with git if you have extra time:
 
 * Work on your .gitconfig file. Some useful information here: http://git-scm.com/docs/git-config
 * Put your CS 180 project into a git repository!
 
-    > Please don't put your Purdue CS projects into public repos on GitHub. Make sure they're in a private repo. You can get in big trouble with your professors if you post projects publicly. 
+    Please don't put your Purdue CS projects into public repos on GitHub. Make sure they're in a private repo. You can get in big trouble with your professors if you post projects publicly. 
+
+* Setting up SSH keys:
+
+    You may have noticed that every time you pull or push to GitHub, you have to enter your username and password. This is because you are using the HTTPS protocol to connect to GitHub as a remote. 
+    
+    This has a few advantages:
+
+    * It's easier and faster to set up.
+    * It will still work on strict firewalls and proxies such as those restricting
+      all ports but port 80 and 443 (only HTTP and HTTPS traffic).
+
+    The downsides being:
+
+    * You have to enter your credentials every time you push or pull.
+    * Typing your password can be insecure on unfamiliar machines or HTTP
+      connections
+
+    Luckily, there is another way. You can set up the remote to use SSH instead of
+    HTTPS.
+
+    SSH uses RSA encryption. This allows you use a "password-less log in" using a
+    public/private key pair.
+
+    There is a great tutorial by GitHub on how to set up and use this method
+    [here](https://help.github.com/articles/generating-ssh-keys/).
+
+    > Note: you will need to add an SSH key for every different machine you want
+    to clone on (e.g. your personal machine and the CS servers).
