@@ -231,13 +231,13 @@ Be on the lookout in Spring 2017...
 ```
 while (you.EvaluatingCourses) {
   if (course.instructor == "Prof. Dunsmore") {
-    course.instructor == "Jay & Matt";
+    course.instructor == "Shane & Marty & Caitlin";
     course.evaluate();
   }
 }
 ```
 <br>
-<!-- .element: style="text-align: center; font-size: 16pt; margin-left: 50px; margin-right: 30px;"-->"I will fill out the course evaluation for CS 190. I understand that where it says "Professor Dunsmore", I will replace that with "**Jay & Matt**".
+<!-- .element: style="text-align: center; font-size: 16pt; margin-left: 50px; margin-right: 30px;"-->"I will fill out the course evaluation for CS 190. I understand that where it says "Professor Dunsmore", I will replace that with "**Shane & Marty & Caitlin**".
 
 <br>
 <!-- .element: style="text-align: center; margin-left: 50px; margin-right: 30px;"-->
