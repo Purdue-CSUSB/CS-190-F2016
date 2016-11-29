@@ -13,7 +13,7 @@
 
 
 
-## Tips and Tricks:
+## Tips and Tricks: 
 <!--.element: style="text-align: center;" -->
 ### Make your workflow wonderful
 <!--.element: class="subtitle" style="text-align: center; font-size: 24pt; margin-top: -20px;" -->
@@ -190,7 +190,7 @@
 ## Some Simple Hints
 * In CS, it is about **what you make**.
 * Grades aren't everything.
-* Clubs and organizations barely matter.
+* Clubs and organizations can have a big impact
 * **Don't** wear a suit, tie, or dress shoes to a CS interview
   - A few exceptions: IBM, Bloomberg
 * **Do** wear a nice pair of jeans or khakis, clean shoes, and a nice button-down or sweater. Business casual is where it's at.
