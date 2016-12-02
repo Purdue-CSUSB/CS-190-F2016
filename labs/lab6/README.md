@@ -52,7 +52,7 @@ The project we will be working with is a simple 4-function calculator written in
 
 ## Step 1: Check the status of the repo
 
-Run `git status`. You should see some output that looks like this:
+Change to the project directory and run `git status`. You should see some output that looks like this:
 
 ```
 On branch master
