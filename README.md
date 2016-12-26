@@ -3,7 +3,7 @@ CS 190: Freshman Tools and Resources
 
 ## Purpose
 
-The Purdue CS 190 Tools course was started in Fall of 2013 by the Computer Science Undergraduate Student Board (USB) at Purdue. The course was a response to the need of new CS students to learn basic tools to be professional and efficient in their other CS courses. The course focuses on practical skills required to be a good programmer,s starting with a functional knowledge of UNIX
+The Purdue CS 190 Tools course was started in Fall of 2013 by the Computer Science Undergraduate Student Board (USB) at Purdue. The course was a response to the need of new CS students to learn basic tools to be professional and efficient in their other CS courses. The course focuses on practical skills required to be a good programmer, starting with a functional knowledge of UNIX
 shells, and encompasses editors, debuggers, and source control software. Our goal is to give students what they need early in their careers and put them on a path to success in Computer Science.
 
 ## Structure
