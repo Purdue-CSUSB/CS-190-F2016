@@ -1,4 +1,4 @@
-CS 190: Freshman Tools and Resources
+[Archived] CS 190: Freshman Tools and Resources (Fall 2016) 
 ====================================
 
 ## Purpose
